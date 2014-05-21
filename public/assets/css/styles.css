@@ -1340,6 +1340,7 @@ h6 {
         #main-content .carousel .item p {
             line-height:1.7;
             margin:1.5em 0;
+            text-align: left;
         }          
     }
     @media (min-width: 992px) { 
