@@ -1176,6 +1176,10 @@ h6 {
     text-align: center;     
 }
 
+#main-content .carousel .carousel-inner .item .left{
+    text-align: left;     
+}
+
 #main-content .carousel .carousel-inner .item .carousel-text-content {
     display:block;
     height:100%;
