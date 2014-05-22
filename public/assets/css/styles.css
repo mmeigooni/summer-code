@@ -1575,3 +1575,12 @@ img.full-width {
 .heading-center {
     text-align: center;
 }
+
+.flaticon-margins {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.asterisk {
+    padding-top: 2em;
+}
