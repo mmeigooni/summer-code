@@ -1678,7 +1678,7 @@ h3.cs-heading {
 }
 .pricing-plan .header {
     padding: 25px 20px 18px 20px;
-    background-color: rgba(31, 20, 58, .3);
+    background-color: rgba(31, 20, 58, .4);
     text-align: center;
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
@@ -1700,14 +1700,22 @@ h3.cs-heading {
     margin: 0 0 8px 0;
     line-height: 1.2;
 }
+.pricing-plan .header-highlighted h3 {
+    font-size: 1.7em;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 8px 0;
+    line-height: 1.2;
+}
 .pricing-plan .price {
     font-size: 2.6em;
     color: #ffffff;
     font-weight: 700;
 }
 .pricing-plan .body {
-    padding: 40px 0 15px 0;
-    background-color: rgba(31, 20, 58, .3);
+    padding: 0px;
+    background-color: rgba(31, 20, 58, .4);
     -webkit-border-radius: 0 0 5px 5px;
     -moz-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
@@ -1768,10 +1776,29 @@ h3.cs-heading {
 #dates {
     list-style: none;
     text-align: center;
-    margin: 1em 0em 1em 0em;
+    margin: 1em 0em 2em 0em;
+    padding-left: 0px;
 }
-#dates li{
-    display: inline;
-    padding-right: 3em;
+
+#dates li {
+    display: inline-block;
     font-size: 1.5em;
+    width: 44%;
+    /*background-color: rgba(31, 20, 58, .4);*/
+    margin-right: .5em;
+}
+
+#dates div {
+    display: inline-block;
+    width: 49%;
+    background-color: rgba(31, 20, 58, .4);
+}
+
+h5.weeks {
+    margin-bottom: 0em;
+}
+
+p.weeks {
+    font-weight: bold;
+    margin-top: .5em;
 }
