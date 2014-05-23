@@ -734,6 +734,10 @@ h6 {
 
         #main-content .grid .text-content {
             padding-left:35%;
+        }               
+
+        #main-content .grid .text-content2 {
+            padding-left:0%;
         }         
     }
     @media (min-width: 1200px) {
@@ -1674,8 +1678,16 @@ h3.cs-heading {
 }
 .pricing-plan .header {
     padding: 25px 20px 18px 20px;
+    background-color: rgba(31, 20, 58, .3);
     text-align: center;
-    background-color: #313447;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+.pricing-plan .header-highlighted {
+    padding: 25px 20px 18px 20px;
+    background-color: rgba(31, 20, 58, .8);
+    text-align: center;
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
@@ -1695,13 +1707,14 @@ h3.cs-heading {
 }
 .pricing-plan .body {
     padding: 40px 0 15px 0;
-    background-color: #e7e7ea;
+    background-color: rgba(31, 20, 58, .3);
     -webkit-border-radius: 0 0 5px 5px;
     -moz-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
 }
 .pricing-plan.highlited .body {
-    background-color: #ff6f69;
+    /*background-color: #1F143A;*/
+    background-color: rgba(31, 20, 58, .8);
 }
 .pricing-plan .body ul {
     text-align: center;
@@ -1715,6 +1728,7 @@ h3.cs-heading {
     color: #ffffff;
 }
 .pricing-plan .body ul li {
+    list-style: none;
     padding: 18px 20px;
     border-bottom: 1px solid #313447;
 }
@@ -1749,4 +1763,15 @@ h3.cs-heading {
 
 .asterisk {
     padding-top: 2em;
+}
+
+#dates {
+    list-style: none;
+    text-align: center;
+    margin: 1em 0em 1em 0em;
+}
+#dates li{
+    display: inline;
+    padding-right: 3em;
+    font-size: 1.5em;
 }
