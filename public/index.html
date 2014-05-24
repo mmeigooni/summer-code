@@ -92,7 +92,7 @@
           <li id="menu-item-dates-panel" class="menu-item scroll"><a href="#dates-panel">dates</a></li>          
           <li id="menu-item-cost" class="menu-item scroll"><a href="#cost">cost</a></li>          
           <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Team</a></li>          
-          <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">FAQ</a></li>
+          <li id="menu-item-faq-panel" class="menu-item scroll"><a href="#faq-panel">FAQ</a></li>
         </ul><!-- #main-menu -->
 
       </section><!-- #left-sidebar -->
@@ -510,103 +510,55 @@
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
 
-        <article id="featured" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg3.jpg">
-          <div class="content-wrapper clearfix">
-            <div class="col-sm-11 pull-right">
-
-                <h1 class="section-title">Featured</h1>
-              
-                <!-- feature columns -->
-                <section class="feature-columns row clearfix">
-
-                  <!-- feature 1 -->
-                  <article class="feature-col col-md-4">
-                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-6');" class="thumbnail linked">
-                      <div class="image-container">
-                        <img data-img-src="assets/images/other_images/project-3.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
-                      </div>
-                      <div class="caption">
-                        <h5>Image Carousel</h5>
-                        <p>This feature contains an image carousel when you open popup.</p>
-                      </div><!-- .caption -->
-                    </a><!-- .thumbnail -->
-
-                    <div class="content-to-populate-in-modal" id="modal-content-6">
-                      <h1>Sed scelerisque</h1>
-                      <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat.<br/></p>
-
-                      <!-- image slider inside popup -->
-                      <div id="unique-id-for-image-slider" class="owl-carousel popup-image-gallery">
-                        <!-- slide -->
-                        <div>
-                          <!-- caption is optional. To remove it, remove the <h6> below -->
-                          <h6 class="caption">Caption for Image 1</h6>
-                          <img class="lazyOwl" data-src="assets/images/other_images/bg1.jpg">
-                        </div>
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Caption for Image 2</h6>
-                          <img class="lazyOwl" data-src="assets/images/other_images/bg2.jpg">
-                        </div>
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Caption for Image 3</h6>
-                          <img class="lazyOwl" data-src="assets/images/other_images/bg3.jpg">
+        <article id="faq-panel" class="section-wrapper clearfix" data-custom-background-img="assets/images/sample-afternoon-panel/background.jpg">
+          <section class="page-block faq">
+            <div class="container">
+              <div class="row page-header">
+                <h2>FAQ</h2>
+                <span>Subtext for header</span>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                  <img class="img-center" src="img/faq-icon.png" alt="FAQ"/>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                  <div class="panel-group" id="accordion-faq">
+                    <div class="panel">
+                      <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion-faq" href="#collapse1">FAQ 01
+                        <div class="indicator"><div class="icon"><span class="hr-line"></span><span class="vr-line"></span></div></div>
+                      </a>
+                      <div id="collapse1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.
                         </div>
                       </div>
-                    </div><!-- #modal-content-6 -->
-                  </article>
-
-                  <!-- feature 2 -->
-                  <article class="feature-col col-md-4">
-                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-7');" class="thumbnail linked">
-                      <div class="image-container">
-                        <img data-img-src="assets/images/other_images/project-2.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                    </div>
+                    <div class="panel">
+                      <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion-faq" href="#collapse2">FAQ 02
+                        <div class="indicator"><div class="icon"><span class="hr-line"></span><span class="vr-line"></span></div></div>
+                      </a>
+                      <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+                        </div>
                       </div>
-                      <div class="caption">
-                        <h5>Nullam ac rhoncus</h5>
-                        <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies.</p>
-                      </div><!-- .caption -->
-                    </a><!-- .thumbnail -->
-
-                    <div class="content-to-populate-in-modal" id="modal-content-7">
-                      <img data-img-src="assets/images/other_images/top-image2.jpg" class="lazy full-width" alt="Lorem Ipsum">
-                      <h1>Sed scelerisque</h1>
-                      <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio</a>, sit amet. </p>
-                      <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                      <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
-                    </div><!-- #modal-content-7 -->
-                  </article>
-
-                  <!-- feature 3 -->
-                  <article class="feature-col col-md-4">
-                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-8');" class="thumbnail linked">
-                      <div class="image-container">
-                        <img data-img-src="assets/images/other_images/project-4.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                    </div>
+                    <div class="panel">
+                      <a class="panel-heading" data-toggle="collapse" data-parent="#accordion-faq" href="#collapse3">FAQ 03
+                        <div class="indicator"><div class="icon"><span class="hr-line"></span><span class="vr-line"></span></div></div>
+                      </a>
+                      <div id="collapse3" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+                        </div>
                       </div>
-                      <div class="caption">
-                        <h5>Aliquam adipiscing</h5>
-                        <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet.</p>
-                      </div><!-- .caption -->
-                    </a><!-- .thumbnail -->
-
-                    <div class="content-to-populate-in-modal" id="modal-content-8">
-                      <img data-img-src="assets/images/other_images/top-image3.jpg" class="lazy full-width" alt="Lorem Ipsum">
-                      <h1>Sed scelerisque</h1>
-                      <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio</a>, sit amet. </p>
-                      <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                      <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
-                    </div><!-- #modal-content-8 -->
-
-                  </article>
-
-                </section><!-- end: .feature-columns -->
-
-              <!-- End: Section content to edit -->
-
-            </div><!-- .col-sm-10 -->
-          </div><!-- .content-wrapper -->
-        </article><!-- .section-wrapper -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
 
         <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg4.jpg">
           <div class="content-wrapper clearfix">
