@@ -1847,7 +1847,29 @@ h3.cs-heading {
 .panel > .panel-heading.collapsed:hover .indicator .icon .vr-line {
     background-color: #ffffff;
 }
-/* End accordion plans
+/* End accordion
+---------------------------------------------------------*/
+
+
+/*Team
+---------------------------------------------------------*/
+.team h3,
+.team p {
+    font-weight: 400;
+    text-align: center;
+}
+.team .social-networks {
+    padding: 20px 0 20px 0;
+}
+.team .social-networks a {
+    margin: 0 20px 0 20px;
+}
+.team img {
+    margin-bottom: 35px;
+}
+
+
+/* End team
 ---------------------------------------------------------*/
 
 .heading-center {
