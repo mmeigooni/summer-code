@@ -1793,6 +1793,7 @@ h3.cs-heading {
 }
 .panel-body {
   padding: 22px 15px 25px 15px;
+  color: rgb(31, 20, 58);
 }
 .indicator {
     position: absolute;
