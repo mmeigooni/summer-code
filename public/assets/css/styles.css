@@ -1468,7 +1468,7 @@ h6 {
             right:-35px;
         }                
         .modal .modal-content .modal-body {
-            padding:55px 90px;
+            padding:25px 90px;
         }                   
     }
     @media (min-width: 1200px) {  
@@ -1977,5 +1977,13 @@ p.weeks {
 }
 
 .temp-modal {
-    height: 300px;
+    height: 380px;
+}
+
+.location-header {
+    margin-top: 3.5em;
+}
+
+#south-austin-location-pic {
+    margin-top: 2.5em;
 }
