@@ -1238,8 +1238,8 @@ h6 {
     text-align: center;
     list-style: none;
     display:none; /* hidden on small displays */
-    opacity: 0;
-    filter: alpha(opacity=0);
+    opacity: 1;
+    filter: alpha(opacity=1);
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
 }
@@ -1320,8 +1320,8 @@ h6 {
         } 
         #main-content .carousel .carousel-control {
             background-position: 50%;
-            opacity: 0;
-            filter: alpha(opacity=0); 
+            opacity: 1;
+            filter: alpha(opacity=1); 
         }
         #main-content .carousel .carousel-control.left:hover { 
             background-position: 40% 50%;
