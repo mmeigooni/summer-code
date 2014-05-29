@@ -208,7 +208,7 @@ p {
     display:block;
     margin:0 auto;
     width:auto;
-    max-width:75%;
+    max-width:63%;
     height:auto;
 }
 
@@ -1664,7 +1664,7 @@ h3.cs-heading {
     text-decoration: none;
 }
 .cs-page .countdown {
-    color: #313447;
+    color: rgb(0, 115, 65);
     margin-bottom: 0px;
 }
 
@@ -1678,7 +1678,7 @@ h3.cs-heading {
 }
 .pricing-plan .header {
     padding: 25px 20px 18px 20px;
-    background-color: rgba(31, 20, 58, .4);
+    background-color: rgba(0, 115, 65, .4);
     text-align: center;
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
@@ -1686,7 +1686,7 @@ h3.cs-heading {
 }
 .pricing-plan .header-highlighted {
     padding: 25px 20px 18px 20px;
-    background-color: rgba(31, 20, 58, .8);
+    background-color: rgba(0, 115, 65, .8);
     text-align: center;
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
@@ -1715,14 +1715,14 @@ h3.cs-heading {
 }
 .pricing-plan .body {
     padding: 0px;
-    background-color: rgba(31, 20, 58, .4);
+    background-color: rgba(0, 115, 65, .4);
     -webkit-border-radius: 0 0 5px 5px;
     -moz-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
 }
 .pricing-plan.highlited .body {
     /*background-color: #1F143A;*/
-    background-color: rgba(31, 20, 58, .8);
+    background-color: rgba(0, 115, 65, .8);
 }
 .pricing-plan .body ul {
     text-align: center;
@@ -1738,7 +1738,7 @@ h3.cs-heading {
 .pricing-plan .body ul li {
     list-style: none;
     padding: 18px 20px;
-    border-bottom: 1px solid #313447;
+    border-bottom: 1px solid rgb(0, 115, 65);
 }
 .pricing-plan.highlited .body ul li {
     border-bottom: 1px solid #ffffff;
@@ -1763,7 +1763,7 @@ h3.cs-heading {
 /*Accordion
 ---------------------------------------------------------*/
 .panel {
-  border-color: #313447;
+  border-color: rgb(0, 115, 65);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
   border-radius: 4px;
@@ -1771,9 +1771,9 @@ h3.cs-heading {
 }
 .panel > .panel-heading {
     display: block;
-  color: #ffffff;
-    background-color: #313447;
-  border-color: #313447;
+    color: #ffffff;
+    background-color: rgb(0, 115, 65);
+    border-color: rgb(0, 115, 65);
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
     transition: all 250ms ease;
@@ -1782,14 +1782,14 @@ h3.cs-heading {
 }
 .panel > .panel-heading.collapsed {
   background-color: transparent;
-  color: #313447;
+  color: rgb(0, 115, 65);
 }
 .panel > .panel-heading.collapsed:hover {
-    background-color: #313447;
+    background-color: rgb(0, 115, 65);
   color: #ffffff;
 }
 .panel > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #313447;
+  border-top-color: rgb(0, 115, 65);
 }
 .panel-body {
   padding: 22px 15px 25px 15px;
@@ -1814,7 +1814,7 @@ h3.cs-heading {
     display: block;
     width: 15px;
     height: 1px;
-    background-color: #313447;
+    background-color: rgb(0, 115, 65);
     margin-top: 7px;
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
@@ -1824,7 +1824,7 @@ h3.cs-heading {
     display: block;
     width: 1px;
     height: 15px;
-    background-color: #313447;
+    background-color: rgb(0, 115, 65);
     margin-left: 7px;
     margin-top: -8px;
     -webkit-transition: all 250ms ease;
@@ -1833,7 +1833,7 @@ h3.cs-heading {
 }
 .panel > .panel-heading.collapsed .indicator .icon .hr-line,
 .panel > .panel-heading.collapsed .indicator .icon .vr-line {
-    background-color: #313447;
+    background-color: rgb(0, 115, 65);
 }
 .panel > .panel-heading .indicator .icon .hr-line {
     background-color: #ffffff;
@@ -1866,7 +1866,7 @@ img {
 .img-thumbnail,
 .img-circle-thumbnail {
   padding: 5px;
-  border: 1px solid #313447;
+  border: 1px solid rgb(0, 115, 65);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -1941,14 +1941,14 @@ img {
     display: inline-block;
     font-size: 1.5em;
     width: 44%;
-    /*background-color: rgba(31, 20, 58, .4);*/
+    /*background-color: rgba(0, 115, 65, .4);*/
     margin-right: .5em;
 }
 
 #dates div {
     display: inline-block;
     width: 49%;
-    background-color: rgba(31, 20, 58, .4);
+    background-color: rgba(0, 115, 65, .4);
 }
 
 h5.weeks {
@@ -1974,13 +1974,13 @@ p.weeks {
 }
 
 .typeform-button {
-    background-color: rgba(31, 20, 58, .8) !important;
-    border-color: rgba(31, 20, 58, .8) !important;
+    background-color: rgba(0, 115, 65, .8) !important;
+    border-color: rgba(0, 115, 65, .8) !important;
     width: 100%;
 }
 .typeform-button2 {
-    background-color: rgba(31, 20, 58, .8) !important;
-    border-color: rgba(31, 20, 58, .8) !important;
+    background-color: rgba(0, 115, 65, .8) !important;
+    border-color: rgba(0, 115, 65, .8) !important;
     width: 50%;
 }
 
@@ -2002,11 +2002,42 @@ p.weeks {
 }
 
 #camp-badge {
-    margin-top: 100px;
+    display: inline-block;
+    width: 19%;
+    margin-right: 7px;
 }
 
-@media all and (max-width: 768px) {
+
+@media all and (max-width: 1200px) {
     #camp-badge {
         display:none;
     }
 }
+
+#top-panel-subtext {
+    display: inline-block; 
+    width: 75%; 
+}
+
+.top-panel-emphasis {
+    color: #005630;
+/*    text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;  */
+}
+
+.top-panel-emphasis2 {
+    color: #005630;
+    display: inline;
+/*    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;  */
+}
+
+
+
+
