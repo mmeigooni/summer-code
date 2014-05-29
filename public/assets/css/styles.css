@@ -2002,7 +2002,7 @@ p.weeks {
 }
 
 #camp-badge {
-    margin-top: 6em;
+    margin-top: 100px;
 }
 
 @media all and (max-width: 768px) {
