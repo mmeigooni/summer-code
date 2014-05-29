@@ -1978,6 +1978,11 @@ p.weeks {
     border-color: rgba(31, 20, 58, .8) !important;
     width: 100%;
 }
+.typeform-button2 {
+    background-color: rgba(31, 20, 58, .8) !important;
+    border-color: rgba(31, 20, 58, .8) !important;
+    width: 50%;
+}
 
 .temp-modal {
     height: 380px;
@@ -1989,4 +1994,9 @@ p.weeks {
 
 #south-austin-location-pic {
     margin-top: 2.5em;
+}
+
+.contact-us {
+    margin-top: 3em;
+    text-align: center;
 }
