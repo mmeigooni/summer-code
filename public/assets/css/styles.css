@@ -2000,3 +2000,13 @@ p.weeks {
     margin-top: 3em;
     text-align: center;
 }
+
+#camp-badge {
+    margin-top: 6em;
+}
+
+@media all and (max-width: 768px) {
+    #camp-badge {
+        display:none;
+    }
+}
