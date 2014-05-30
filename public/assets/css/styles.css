@@ -1930,25 +1930,13 @@ img {
     padding-top: 2em;
 }
 
-#dates {
-    list-style: none;
-    text-align: center;
-    margin: 1em 0em 2em 0em;
-    padding-left: 0px;
-}
-
-#dates li {
-    display: inline-block;
-    font-size: 1.5em;
-    width: 44%;
-    /*background-color: rgba(0, 115, 65, .4);*/
-    margin-right: .5em;
-}
-
-#dates div {
-    display: inline-block;
-    width: 49%;
+.dates {
     background-color: rgba(0, 115, 65, .4);
+    text-align: center;
+}
+
+.week-size {
+    font-size: 1.2em;
 }
 
 h5.weeks {
@@ -2037,7 +2025,3 @@ p.weeks {
     -1px 1px 0 white,
     1px 1px 0 white;  */
 }
-
-
-
-
