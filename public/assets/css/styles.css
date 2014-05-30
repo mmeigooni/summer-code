@@ -2026,8 +2026,8 @@ p.weeks {
     1px 1px 0 white;  */
 }
 
-.date-table .header {
-    padding: 25px 20px 18px 20px;
+.date-table {
+    padding: 0px 0px 2em 0px;
     background-color: rgba(0, 115, 65, .4);
     text-align: center;
     -webkit-border-radius: 5px 5px 0 0;
@@ -2036,7 +2036,16 @@ p.weeks {
 }
 
 .date-table .body {
-    padding: 0px 0px 220px 0px;
+    padding: 25px 20px 18px 20px;
+    text-align: center;
+    background-color: rgba(0, 115, 65, .4);
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.date-table .footer {
+    padding: 25px 20px 18px 20px;
     text-align: center;
     background-color: rgba(0, 115, 65, .4);
     -webkit-border-radius: 0 0 5px 5px;
