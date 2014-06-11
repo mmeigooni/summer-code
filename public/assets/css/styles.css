@@ -2029,6 +2029,8 @@ p.weeks {
     padding: 0px 0px 2em 0px;
     background-color: rgba(0, 115, 65, .4);
     text-align: center;
+    overflow: auto;
+    width: 100%;
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
     border-radius: 5px 5px 0 0;
