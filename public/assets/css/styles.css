@@ -2053,3 +2053,16 @@ p.weeks {
     -moz-border-radius: 0 0 5px 5px;
     border-radius: 0 0 5px 5px;
 }
+
+.location-button {
+    font-size: 1.5em !important;
+    cursor: default;
+}
+
+.address p {
+    font-size: 1.3em;
+    line-height: .5em;
+}
+.address h3 {
+    padding-top: 1em;
+}
