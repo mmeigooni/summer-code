@@ -1950,8 +1950,7 @@ p.weeks {
 
 .typeform-date {
     text-align: center;
-    width: 100%;
-    margin: 1em 0em;
+    margin-top: 2em;
 }
 
 .typeform-cost {
@@ -2027,7 +2026,7 @@ p.weeks {
 
 .date-table {
     padding: 0px 0px 2em 0px;
-    background-color: rgba(0, 115, 65, .4);
+    background-color: rgba(0, 115, 65, .8);
     text-align: center;
     overflow: auto;
     width: 100%;
@@ -2039,7 +2038,7 @@ p.weeks {
 .date-table .body {
     padding: 25px 20px 18px 20px;
     text-align: center;
-    background-color: rgba(0, 115, 65, .4);
+    background-color: rgba(0, 115, 65, .8);
     -webkit-border-radius: 0 0 5px 5px;
     -moz-border-radius: 0 0 5px 5px;
     border-radius: 0 0 5px 5px;
@@ -2048,7 +2047,7 @@ p.weeks {
 .date-table .footer {
     padding: 25px 20px 18px 20px;
     text-align: center;
-    background-color: rgba(0, 115, 65, .4);
+    background-color: rgba(0, 115, 65, .8);
     -webkit-border-radius: 0 0 5px 5px;
     -moz-border-radius: 0 0 5px 5px;
     border-radius: 0 0 5px 5px;
@@ -2059,10 +2058,22 @@ p.weeks {
     cursor: default;
 }
 
-.address p {
+.address-a div {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1.5em;
+}
+
+.address-a p {
     font-size: 1.3em;
     line-height: .5em;
 }
-.address h3 {
+.address-a h3 {
+    padding-top: 1em;
+}
+.address-b p {
+    font-size: 1.3em;
+    line-height: .5em;
+}
+.address-b h3 {
     padding-top: 1em;
 }
