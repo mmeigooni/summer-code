@@ -2107,3 +2107,9 @@ p.weeks {
     border: 1px solid #fff !important;
     margin: 3em 0em 3em 0em;
 }
+
+@media (max-width: 768px) {
+        .small-date {
+            font-size: .9em !important;
+        }
+    }
