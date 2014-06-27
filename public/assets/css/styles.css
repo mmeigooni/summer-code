@@ -2113,3 +2113,7 @@ p.weeks {
             font-size: .9em !important;
         }
     }
+
+.h1-resizing {
+    font-size: 2.45em !important;
+}
