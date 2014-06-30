@@ -2121,3 +2121,9 @@ p.weeks {
 .overview-sizing {
     font-size: 2.4em !important;
 }
+
+.nav-bar img {
+    display: inline;
+    width: 15%;
+    padding-right: 2em;
+}
