@@ -2007,7 +2007,7 @@ p.weeks {
 
 #top-panel-subtext {
     display: inline-block; 
-    width: 75%; 
+    width: 100%; 
 }
 
 .top-panel-emphasis {
@@ -2064,8 +2064,8 @@ p.weeks {
 }
 
 .address-a div {
-    border-bottom: 1px solid #fff;
-    padding-bottom: 1.5em;
+    border-top: 1px solid #fff;
+    padding-top: 0em;
 }
 
 .address-a p {
@@ -2081,6 +2081,10 @@ p.weeks {
 }
 .address-b h3 {
     padding-top: 1em;
+}
+div.address-b {
+    padding-bottom: 1em;
+    margin-top: -1em;
 }
 
 .overview-p {
@@ -2122,10 +2126,25 @@ p.weeks {
     font-size: 2.4em !important;
 }
 
-.nav-bar img {
+.top-nav-callout img {
     display: inline;
     width: 15%;
     padding-right: 2em;
+}
+
+.top-nav-callout {
+    margin-top: -3em;
+}
+
+.top-nav-callout2 img {
+    display: inline;
+    width: 15%;
+    padding-right: 2em;
+}
+
+.top-nav-callout2 {
+    margin-top: 3em;
+    margin-bottom: -3em;
 }
 
 .sub-menu-item img {
