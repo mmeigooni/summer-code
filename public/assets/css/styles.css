@@ -2127,3 +2127,11 @@ p.weeks {
     width: 15%;
     padding-right: 2em;
 }
+
+.sub-menu-item img {
+    display: inline;
+    width: 15px;
+    margin-right: 5px;
+    margin-bottom: 9px;
+    text-align: left;
+}
