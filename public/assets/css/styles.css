@@ -2135,3 +2135,13 @@ p.weeks {
     margin-bottom: 9px;
     text-align: left;
 }
+
+.new-page-heading {
+    color: #006a36;
+    text-shadow:
+   -1px -1px 0 #f9d200,  
+    1px -1px 0 #f9d200,
+    -1px 1px 0 #f9d200,
+     1px 1px 0 #f9d200;
+    margin: 2em 0em 1em 0em;
+}
