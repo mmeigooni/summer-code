@@ -286,9 +286,16 @@ p {
     background:rgba(0,0,0,0.01);
     color:#fff;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     font-weight: normal;
 }
+
+    @media (max-width: 768px) {
+        #left-sidebar #main-menu > li.menu-item > a,
+        #left-sidebar #main-menu > li.menu-item > span {
+            margin-left: 45%;
+        }
+    }
 
 #left-sidebar #main-menu > li.menu-item > a:hover {
     background:rgba(0,0,0,0.3);
@@ -310,7 +317,7 @@ p {
         } 
         #left-sidebar #main-menu > li.menu-item > a,
         #left-sidebar #main-menu > li.menu-item > span {
-            padding:7px 10px;
+            padding:7px 10px 7px 38px;
         }             
     }
     @media (min-width: 992px) {
@@ -2181,3 +2188,4 @@ div.address-b {
             margin-left: 0%;
         }
     }
+
