@@ -113,11 +113,16 @@
         <div id="mobile-menu-icon" class="visible-xs" onClick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
 
         <ul id="main-menu">
-          <li id="menu-item-home" class="menu-item scroll"><a href="/">Home</a></li>
+          <li id="menu-item-home" class="menu-item scroll"><a href="#home">Home</a></li>
+          <li id="menu-item-overview" class="menu-item sub-menu-item scroll"><a href="#why-code"><img src="assets/images/flaticons/nav-bar-arrow.png" alt="arrow">Why Code?</a></li>
+          <!-- <li id="menu-item-carousel1" class="menu-item sub-menu-item scroll"><a href="#carousel1"><img src="assets/images/flaticons/nav-bar-arrow.png" alt="arrow">Testimonials</a></li> -->
+          <li id="menu-item-about-us" class="menu-item sub-menu-item scroll"><a href="#about-us"><img src="assets/images/flaticons/nav-bar-arrow.png" alt="arrow">About Mushroom Learning</a></li>
+          <li id="menu-item-team" class="menu-item sub-menu-item scroll"><a href="#team"><img src="assets/images/flaticons/nav-bar-arrow.png" alt="arrow">Team</a></li>
           <li id="menu-item-summer-camp" class="menu-item scroll"><a href="/summer_camp">Summer Camp</a></li>
           <li id="menu-item-workshop" class="menu-item scroll"><a href="/workshops">Workshops</a></li>          
-          <li id="menu-item-about-us" class="menu-item scroll"><a href="/about_us">About us</a></li>          
+          <!-- <li id="menu-item-about-us" class="menu-item scroll"><a href="/about_us">About us</a></li>           -->
           <li id="menu-item-faq-panel" class="menu-item scroll"><a href="/faq">FAQ</a></li>
+
         </ul><!-- #main-menu -->
 
       </section><!-- #left-sidebar -->
@@ -146,318 +151,39 @@
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
 
-        <article id="overview" class="section-wrapper clearfix" data-custom-background-img="assets/images/overview-panel/background.jpg">
-          <div class="content-wrapper clearfix">
-            <div class="col-sm-11 col-md-10 pull-left">
-
-                <h1 class="section-title heading-center overview-sizing">Mushroom Learning Overview</h1>
-                
-                <!-- grid -->
-                <section class="grid row clearfix clearfix-for-2cols">
-
-                  <!-- grid item -->
-                  <div class="grid-item col-md-6" style="width:100%">
-                    <div class="item-content clearfix">
-                      <img src="assets/images/flaticons/html-tag.png" class="icon" alt="Coding languages">
-                      <!-- <span class="icon glyphicon glyphicon-stats"></span> -->
-                      <div class="text-content">
-                        <h3>Web Development</h3>
-                        <h5>Full day session 9:00am - 4:30pm<sup>*</sup></h5>
-                        <p class="overview-p">Have you ever wanted to build a website from scratch? We use a combination of guided exercises, independent challenges, and unplugged activities to teach the fundamentals of HTML, CSS, and a touch of JavaScript. No coding experience required!</p>
-                        <p class="overview-p">Classes are project based and offer extensions for students of all levels.</p>
-                        <p class="asterisk"><sup>*</sup>Optional study hall from 4:30pm - 5:30pm</p>
-                      </div>
-                    </div><!-- end: .item-content -->
-                  </div><!-- end: .grid-item -->
-
-                  <!-- grid item -->
-
-                </section><!-- end: grid -->
-
-            </div><!-- .col-sm-11 -->
-          </div><!-- .content-wrapper -->
-        </article><!-- .section-wrapper -->
-
-        <article id="carousel1" class="section-wrapper clearfix" data-custom-background-img="assets/images/sample-afternoon-panel/background.jpg">
-          <div class="content-wrapper clearfix">
-
-              <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="70" data-ride="carousel">
-                
-                <!-- Indicators - slide navigation -->
-                <ol class="carousel-indicators title-indicators">
-                  <li data-target="#features-carousel" data-slide-to="0" class="active">8:30am</li>
-                  <li data-target="#features-carousel" data-slide-to="1">9:00am</li>
-                  <li data-target="#features-carousel" data-slide-to="2">9:15am</li>
-                  <li data-target="#features-carousel" data-slide-to="3">10:15am</li>
-                  <li data-target="#features-carousel" data-slide-to="4">10:30am</li>
-                  <li data-target="#features-carousel" data-slide-to="5">11:15am</li>
-                  <li data-target="#features-carousel" data-slide-to="6">11:45am</li>
-                  <li data-target="#features-carousel" data-slide-to="7">12:00pm</li><br>
-                  <li data-target="#features-carousel" data-slide-to="8">1:00pm</li>
-                  <li data-target="#features-carousel" data-slide-to="9">1:30pm</li>
-                  <li data-target="#features-carousel" data-slide-to="10">2:45pm</li>
-                  <li data-target="#features-carousel" data-slide-to="11">3:00pm</li>
-                  <li data-target="#features-carousel" data-slide-to="12">3:30pm</li>
-                  <li data-target="#features-carousel" data-slide-to="13">4:00pm</li>
-                  <li data-target="#features-carousel" data-slide-to="14">4:30pm</li>
-                </ol>
-
-
-                <!-- Wrapper for slides -->
-                <h2 class="section-title heading-center">Summer Camp - Sample Day</h2>
-
-                <div class="carousel-inner">
-
-                  <div class="item active">
-                    <div class="carousel-text-content">
-                      <div class="flaticon-margins">
-                        <img src="assets/images/flaticons/rocket.png" class="icon" alt="Check-in">
-                      </div>
-                      <h3 class="left">Check-in</h3>
-                      <h6 class="left">8:30am - 9:00am</h6>
-                      <p>Students can be dropped off at any time between 8:30 and 9:00am. In the time before camp begins, students can set up their computers or work through fun logic puzzles and critical thinking games that are always available.</p>
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                      <div class="flaticon-margins">
-                        <img src="assets/images/flaticons/review.png" class="icon" alt="Review">
-                      </div>
-                      <h3 class="left">Review</h3>
-                      <h6 class="left">9:00am - 9:15am</h6>
-                      <p>Camp begins at 9:00am with a riddle of the day and a review of yesterday’s important concepts.</p>
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/html-tag.png" class="icon" alt="Coding languages">
-                    </div>
-                      <h3 class="left">Coding Languages</h3>
-                      <h6 class="left">9:15am - 10:15am</h6>
-                      <p>Students work through mini-tutorials on HTML and CSS skills, focusing on understanding syntax and coding concepts with each exercise. Students also have the opportunity to work on independent challenges, where they can show off what they have learned.</p>
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/snack.png" class="icon" alt="Healthy break">
-                    </div>
-                      <h3 class="left">Healthy Break</h3>
-                      <h6 class="left">10:15am - 10:30am</h6>
-                      <p>Refuel with a wholesome snack.<sup>*</sup></p>
-                      <p class="asterisk"><sup>*</sup>Please let us know of any dietary restrictions or allergies</p>
-                    </div>
-                  </div><!-- .item -->
-                  
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/design.png" class="icon" alt="Digital design">
-                    </div>
-                      <h3 class="left">Digital Design</h3>
-                      <h6 class="left">10:30am - 11:15am</h6>
-                      <p>Students learn how to use color schemes and paletes to make their work visually cohesive and appealing.</p>
-                    </div>
-                  </div><!-- .item -->
-                  
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/linguistics.png" class="icon" alt="Lingustics activity">
-                    </div>
-                      <h3 class="left">Linguistics Activity</h3>
-                      <h6 class="left">11:15am - 11:45am</h6>
-                      <p>In this activity, students learn to look for patterns and details in the structures of languages and apply these observations to their studies in HTML and CSS.</p>
-                    </div>
-                  </div><!-- .item -->
-                  
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/questions.png" class="icon" alt="Review activity">
-                    </div>
-                      <h3 class="left">Review Activity</h3>
-                      <h6 class="left">11:45am - 12:00pm</h6>
-                      <p>At the end of each session, students review the new concepts learned during the day with different, fun review games.</p>
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/yoga.png" class="icon" alt="Lunch and yoga">
-                    </div>
-                      <h3 class="left">Lunch and Yoga or Pickup</h3>
-                      <h6 class="left">12:00pm - 1:00pm</h6>
-                      <p>Nutritious lunch and light stretching.<sup>*</sup></p>
-                      <p class="asterisk"><sup>*</sup>Please let us know of any dietary restrictions or allergies</p>
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/innovation-challenge.png" class="icon" alt="Innovation challenge">
-                    </div>
-                      <h2 class="title">Innovation Challenge</h2>
-                      <h6 class="left">1:00pm - 1:30pm</h6>
-                      <p>Each afternoon starts with an innovation challenge. For example, teams must build the tallest free-standing structure out of 20 sticks of spaghetti, one yard of tape, one yard of string, and one marshmallow.</p>
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/coding.png" class="icon" alt="Coding Languages">
-                    </div>
-                      <h3 class="left">Coding Languages</h3>
-                      <h6 class="left">1:30pm - 2:45pm</h6>
-                      <p>Continue working on a mini-project covering strings, integers, and terminal input/output using Ruby. Ruby is a powerful yet beginner-friendly language used for professional web apps all over the world.</p>
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/snack.png" class="icon" alt="Healthy Break">
-                    </div>
-                      <h3 class="left">Healthy Break</h3>
-                      <h6 class="left">2:45pm - 3:00pm</h6>
-                      <p>Refuel with a wholesome snack.<sup>*</sup></p>
-                      <p class="asterisk"><sup>*</sup>Please let us know of any dietary restrictions or allergies</p>
-                    </div>
-                  </div><!-- .item -->
-                  
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/robot.png" class="icon" alt="Artificial intelligence">
-                    </div>
-                      <h3 class="left">Artificial Intelligence Activity</h3>
-                      <h6 class="left">3:00pm - 3:30pm</h6>
-                      <p>This unplugged activity aims to stimulate discussion on the question of whether computers can exhibit "intelligence," or are ever likely to do so in the future.</p>
-                    </div>
-                  </div><!-- .item -->
-                  
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/progress-check.png" class="icon" alt="Progress check">
-                    </div>
-                      <h3 class="left">Progress Check</h3>
-                      <h6 class="left">3:30pm - 4:00pm</h6>
-                      <p>A short pencil and paper code writing exercise to review concepts.</p>
-                    </div>
-                  </div><!-- .item -->
-                  
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/car.png" class="icon" alt="Pick up">
-                    </div>
-                      <h3 class="left">Pick up</h3>
-                      <h6 class="left">4:00pm - 4:30pm</h6>
-                      <p>Class is dismissed at 4:00pm. Those that need aftercare can sign up for study hall.</p>
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                    <div class="flaticon-margins">
-                      <img src="assets/images/flaticons/study-hall.png" class="icon" alt="Study hall">
-                    </div>
-                      <h3 class="left">Optional Study hall</h3>
-                      <h6 class="left">4:30pm - 5:30pm</h6>
-                      <p>Students work independently or with each other on their projects, logic puzzles and critical thinking games that are always available.<sup>*</sup></p>
-                      <p class="asterisk"><sup>*</sup>Study hall is an extra $10/day</p>
-                    </div>
-                  </div><!-- .item -->
-
-
-                </div><!-- .carousel-inner -->
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#features-carousel" data-slide="prev"></a>
-                <a class="right carousel-control" href="#features-carousel" data-slide="next"></a>
-
-              </div><!-- #about-carousel -->
-
-          </div><!-- .content-wrapper -->
-        </article><!-- .section-wrapper -->
-
-        <article id="dates-panel" class="section-wrapper clearfix" data-custom-background-img="assets/images/pricing-panel/background-flipped.jpg">         
-          <div class="content-wrapper clearfix">
-            <h2 class="section-title heading-center">Los Angeles Dates and Location</h2>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
-                <div class="date-table round-1">
-<!--                   <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h3 class="location-button btn btn-outline-inverse btn-sm">West Los Angeles</h3>
-                  </div> -->
-                  <div class="col-lg-12 col-md-12 col-sm-12 address-a">
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                      <h3>Week 1</h3>
-                      <p class="small-date">July 28 - August 1</p>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                      <h3>Week 2</h3>
-                      <p class="small-date">August 4 - August 8</p>
-                    </div>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 address-b">
-                    <h3>Location</h3>
-                    <p>The City School</p>
-                    <p>11625 West Pico Blvd</p>
-                    <p>Los Angeles, CA 90064</p>
-                  </div>
-
+        <article id="why-code" class="section-wrapper clearfix" data-custom-background-img="assets/images/team-panel/background.jpg">
+          <section class="page-block team" id="team">
+            <div class="container">
+              <h2 class="section-title heading-center home-subheaders">Why Code?</h2>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <iframe width="560" height="315" src="//www.youtube.com/embed/nKIu9yen5nc?rel=0" frameborder="0" allowfullscreen id="promo-video"></iframe><br><br>
+                  <p class="overview-p">Computer science develops students’ computational and critical thinking skills and shows them how to create, not simply use, new technologies. This fundamental knowledge is needed to prepare students for the 21st century, regardless of their ultimate field of study or occupation.</p>
+                  <p class="overview-p">The breadth of ways in which computing knowledge prepares people for multiple careers is borne out by looking at the people working in computing occupations by sector. In fact, over 70 percent of computing occupations are outside of the information technology industry: 9 percent are in information services, 12 percent are in financial services, 36 percent are in professional and business services, 7 percent are in government and public education services, and 12 percent are in manufacturing. The College Board states studying AP Computer Science can open the pathway to 130 career areas and 48 college majors.</p>
                 </div>
               </div>
-              <span class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 typeform-date">
-                <a class="typeform-share btn btn-primary btn-lg active typeform-button round-3" href="http://bit.ly/coding-la" target="_blank" >Registration</a>
-              </span>  
             </div>
-          </div><!-- .content-wrapper -->
-        </article><!-- .section-wrapper -->
+          </section>
+        </article>
 
-        <article id="cost" class="section-wrapper clearfix" data-custom-background-img="assets/images/pricing-panel/background-flipped.jpg">
-
-
-          <div class="content-wrapper clearfix">
-            <h2 class="section-title heading-center">Coding Camp Cost</h2>
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
-                <div class="pricing-plan highlited">
-                  <div class="header-highlighted round-2">
-                    <h3>Full day</h3>
-                    <span class="price">$349 <span style="font-size: .5em;">/ week</span></span>
-                  </div>
-                  <div class="body">
-                    <ul>
-                      <li>Both morning and afternoon</li>
-                      <li>Complete approach</li>
-                      <li>Lunch and yoga included</li>
-                      <li>Optional study hall: $10/day</li>
-                    </ul>
-                  </div>
+        <article id="about-us" class="section-wrapper clearfix" data-custom-background-img="assets/images/team-panel/background.jpg">
+          <section class="page-block team" id="team">
+            <div class="container">
+              <h2 class="section-title heading-center home-subheaders">About Mushroom Learning</h2>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+                  <img class="img-circle-thumbnail img-center" src="assets/images/logo-rounded.png" alt="Mushroom Learning Logo"/>
+                  <p class="overview-p">Mushroom Learning started in Austin, TX as a subset of <a href="http://www.makersquare.com">MakerSquare's</a> adult coding program. From promotional workshops to longitudinal courses, Mushroom Learning was recently recognized by Google and code.org for delivering coding education to local public, private, and charter schools.</p>
                 </div>
               </div>
-              
-              <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
-                <a class="typeform-share btn btn-primary btn-lg active typeform-button round-3" href="http://bit.ly/coding-la" target="_blank">Registration page</a>
-              </div>
             </div>
-          </div><!-- .content-wrapper -->
-        </article><!-- .section-wrapper -->
+          </section>
+        </article>
 
         <article id="team" class="section-wrapper clearfix" data-custom-background-img="assets/images/team-panel/background.jpg">
           <section class="page-block team" id="team">
             <div class="container">
-              <h2 class="section-title heading-center">Mushroom Learning Team</h2>
+              <h2 class="section-title heading-center home-subheaders">Mushroom Learning Team</h2>
               <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
                   <img class="img-circle-thumbnail img-center" src="assets/images/team-panel/mike.png" alt="Michael"/>
@@ -474,75 +200,6 @@
                   <h3>Lindsey</h3>
                   <p>Lindsey previously worked as the Alumni Relations Coordinator of a major study abroad company where she specialized in professional development--teaching students college preparedness and how to leverage their experiences into marketable skills for future careers. Lindsey will be overseeing the digital design portion of the camp</p>
                 </div> -->
-
-              </div>
-            </div>
-          </section>
-        </article>
-
-        <article id="faq-panel" class="section-wrapper clearfix" data-custom-background-img="assets/images/team-panel/background.jpg">
-          <section class="page-block faq">
-            <div class="container">
-              <h2 class="section-title heading-center">Summer Camp FAQ</h2>
-              <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-4">
-                  <img class="img-center" src="assets/images/flaticons/faq.png" alt="FAQ"/>
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-8">
-                  <div class="panel-group" id="accordion-faq">
-                    <div class="panel">
-                      <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion-faq" href="#collapse1">What are the age requirements on the summer camp?
-                        <div class="indicator"><div class="icon"><span class="hr-line"></span><span class="vr-line"></span></div></div>
-                      </a>
-                      <div id="collapse1" class="panel-collapse collapse">
-                        <div class="panel-body">
-                          Most of our students are 12 or over. We occasionally make exceptions for advanced younger students. Please email hello@mushroomlearning.com if you would would like to know more about exceptions.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="panel">
-                      <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion-faq" href="#collapse2">Is there any any experience required to join?
-                        <div class="indicator"><div class="icon"><span class="hr-line"></span><span class="vr-line"></span></div></div>
-                      </a>
-                      <div id="collapse2" class="panel-collapse collapse">
-                        <div class="panel-body">
-                          This class is inteded for students with no previous coding experience. There will be around 2 hours of pre-work to be done before the first day of class.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="panel">
-                      <a class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion-faq" href="#collapse3">What kind of snacks and lunch will be provided?
-                        <div class="indicator"><div class="icon"><span class="hr-line"></span><span class="vr-line"></span></div></div>
-                      </a>
-                      <div id="collapse3" class="panel-collapse collapse">
-                        <div class="panel-body">
-                          <p>Snacks will vary from sliced fruit to hummus and pita chips and lightly salted popcorn. Lunches will be a balanced combination of easy to eat foods.</p>
-                          <p>If you have any concerns or there are any dietary restrictions we should know about, please email hello@mushroomlearning.com.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="panel">
-                      <a class="panel-heading" data-toggle="collapse" data-parent="#accordion-faq" href="#collapse4">Where is the camp located?
-                        <div class="indicator"><div class="icon"><span class="hr-line"></span><span class="vr-line"></span></div></div>
-                      </a>
-                      <div id="collapse4" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                          <h6>West Los Angeles</h6>
-                          <p>The City School</p>
-                          <p>11625 West Pico Blvd</p>
-                          <p>Los Angeles, CA 90064</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row contact-us">
-                <h3>Still have questions?</h3>
-                <h5>Call us between 9am - 6pm at 424-244-9794</h5>
-                <h5>Email us at <a href="mailto:hello@mushroomlearning.com">hello@mushroomlearning.com</a></h5>
-                <a class="typeform-share btn btn-primary btn-lg active typeform-button2 round-4" role="button" href="https://mushroomlearning.typeform.com/to/g6IqRe" data-mode="2" target="_blank" >Set up a time to talk</a>
-                <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
 
               </div>
             </div>

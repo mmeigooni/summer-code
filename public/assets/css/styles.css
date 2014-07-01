@@ -2164,3 +2164,20 @@ div.address-b {
      1px 1px 0 #f9d200;
     margin: 2em 0em 1em 0em;
 }
+
+.home-adjustments {
+    padding-left: 0em !important;
+}
+
+.home-subheaders {
+    margin: 2em 0em;
+}
+
+#promo-video {
+    margin-left: 18%;
+}
+@media (max-width: 1000px) {
+        #promo-video {
+            margin-left: 0%;
+        }
+    }
