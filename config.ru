@@ -28,7 +28,7 @@ map "/sitemap" do
 }
 end
 
-map "/summer_camp" do
+map "/summer-camp" do
   run lambda { |env|
   [
     200, 
@@ -54,7 +54,8 @@ map "/workshops" do
 }
 end
 
-map "/about_us" do
+
+map "/fall-programs" do
   run lambda { |env|
   [
     200, 
@@ -62,7 +63,7 @@ map "/about_us" do
       'Content-Type'  => 'text/html', 
       'Cache-Control' => 'public, max-age=86400' 
     },
-    File.open('public/about-us.html', File::RDONLY)
+    File.open('public/fall-programs.html', File::RDONLY)
   ]
 }
 end
