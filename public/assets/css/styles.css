@@ -293,7 +293,7 @@ p {
     @media (max-width: 768px) {
         #left-sidebar #main-menu > li.menu-item > a,
         #left-sidebar #main-menu > li.menu-item > span {
-            margin-left: 45%;
+            margin-left: 40%;
         }
     }
 
@@ -1729,6 +1729,7 @@ h3.cs-heading {
 .pricing-plan.highlited .body {
     /*background-color: #1F143A;*/
     background-color: rgba(0, 115, 65, .8);
+    border-radius: 0px 0px 70px 70px;
 }
 .pricing-plan .body ul {
     text-align: center;
@@ -1759,6 +1760,7 @@ h3.cs-heading {
 }
 .pricing-plan .body ul li:last-child {
     border-bottom: 1px solid #ffffff;
+    border-radius: 0px 0px 70px 70px;
 }
 .pricing-plan .buy-btn {
     width: 100%;
@@ -2099,7 +2101,7 @@ div.address-b {
 }
 
 .round-1 {
-    border-radius: 70px 70px 0px 0px;
+    border-radius: 70px 70px 70px 70px;
     border: 1px solid #fff;
 }
 
@@ -2109,7 +2111,7 @@ div.address-b {
 }
 
 .round-3 {
-    border-radius: 0px 0px 70px 70px;
+    border-radius: 70px;
     border: 1px solid #fff !important;
 }
 
