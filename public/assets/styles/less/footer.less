@@ -1,0 +1,24 @@
+.footer-main,
+.footer-bottom {
+	color: @footer-text-color;
+	h1, h2, h3, h4, h5, h6 {
+		color: @footer-heading-color;
+	}
+	a {
+		color: @link-color;
+		&:hover, &:focus {
+			color: @white;
+			text-decoration: none;
+		}
+	}
+}
+
+.footer-main {
+	border-top: 10px solid darken(@footer-main-bg, 5%);
+	background: @footer-main-bg;
+}
+
+.footer-bottom {
+	background: @footer-bottom-bg;
+}
+

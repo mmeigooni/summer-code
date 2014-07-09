@@ -1,0 +1,31 @@
+.carousel-inner>.item,
+.carousel-inner>.item {
+	>img, >a>img {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.carousel-inner>.item,
+	.carousel-inner>.item {
+		>img, >a>img {
+			max-height: 100%;
+		}
+	}
+}
+
+.carousel-caption {
+	h1 {
+		text-transform: uppercase;
+		padding: 20px 20px;
+		color: #FFF;
+		background: @brand-primary;
+		.border-radius(3px);
+	}
+}
+
+.carousel-control {
+	.icon-prev, .icon-next {
+		font-size: 50px;
+	}
+}

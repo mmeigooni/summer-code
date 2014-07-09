@@ -1,0 +1,54 @@
+// CSS hexagon shape
+// -------------------------
+.hexagon {
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 55px;
+	margin: 80px auto 50px;
+	color: @white;
+	text-align: center;
+	background: @brand-primary;
+}
+.hexagon:before {
+	content: " ";
+	position: absolute;
+	top: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid @brand-primary;
+}
+.hexagon:after {
+	content: " ";
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid @brand-primary;
+}
+
+// CSS ribbon end shape
+// -------------------------
+.ribbon {
+	position: relative;
+	margin-left: -9px;		// to fit inside .thumbnail
+	margin-right: -9px;		// to fit inside .thumbnail
+	padding-left: 9px;		// to fit inside .thumbnail
+	line-height: 30px;
+	background: @brand-primary;
+	color: @white;
+}
+.ribbon:after{
+	content: " ";
+	position: absolute;
+	right:0;
+	border: 15px solid @brand-primary;
+	border-color: transparent;
+	border-right-color: @white;
+}

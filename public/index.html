@@ -1,258 +1,695 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="cache-control" CONTENT="no-cache">
-    <meta http-equiv="expires" CONTENT="Wed, 26 May 2014 11:12:01 GMT">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to Mushroom Learning! We teach kids to code in HTML, CSS, and JavaScript. We are hosting summer camps and ongoing classes in Los Angeles, California.">
-    <meta name="author" content="Mushroom Learning">
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap Theme by @heyallanmoreno</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="stylesheet" href="assets/styles/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/styles/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/styles/css/theme.css">
+	<link rel="stylesheet" href="assets/fancybox/jquery.fancybox-1.3.4.css">
+	<link rel="stylesheet" href="assets/styles/css/isotope.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="favicon.png">
+</head>
 
-    <title>Mushroom Learning -- We Teach Code!</title>
+<body id="home" data-spy="scroll" data-target=".navbar">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<img src="assets/images/logo.png" alt=""> Aventador
+				</a>
+			</div>
+			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#pricing">Pricing</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li><a href="#">Separated link</a></li>
+							<li><a href="#">One more separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap theme -->
-    <link href="assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-    <!-- owl carousel css -->
-    <link href="assets/js/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="assets/js/owl-carousel/owl.theme.css" rel="stylesheet">
-    <link href="assets/js/owl-carousel/owl.transitions.css" rel="stylesheet">
+	<!-- Carousel -->
+	<section>
+		<div id="my-carousel" class="carousel slide">
+			<!-- indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#my-carousel" data-slide-to="1"></li>
+				<li data-target="#my-carousel" data-slide-to="2"></li>
+			</ol>
+			<!-- carousel -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="assets/images/slide-1.jpg" alt="">
+					<div class="carousel-caption visible-lg">
+						<h1>Technology is the path to future. <br>
+							That's the right path.</h1>
+						<p class="lead">Our platform automatically creates Environment Variables.</p><br>
+					</div>
+				</div>
+				<div class="item">
+					<img src="assets/images/slide-2.jpg" alt="">
+					<div class="carousel-caption visible-lg">
+						<h1>We help you being awesome at what you really do</h1>
+						<p class="lead">Providing the best service so you can concentrate on your thing</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="assets/images/slide-3.jpg" alt="">
+					<div class="carousel-caption visible-lg">
+						<h1>Small enough to be personal. Large enough to be reliable.</h1>
+						<p class="lead">Aventador is a small friendly and fast software company from the web.</p>
+					</div>
+				</div>
+			</div>
+			<!-- Controls -->
+			<a class="left carousel-control" href="#my-carousel" data-slide="prev">
+				<span class="icon-prev"></span>
+			</a>
+			<a class="right carousel-control" href="#my-carousel" data-slide="next">
+				<span class="icon-next"></span>
+			</a>
+		</div>
+	</section>
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/styles.css" rel="stylesheet">
+	<!-- About -->
+	<section class="wrapper-sm" id ="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h1>We are the ultimate creative minds</h1>
+					<p class="lead">Simplicity is the ultimate sofistication</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+	<section class="wrapper-lg bg-alt">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>Our Story</h2>
+					<p class="lead">You have to know what's coming next here</p>
+					<p>Aventador is the industry leader of customized macro-macro-nano-dynamic virtual, interactive Total Quality Management. Without sufficient bricks-and-clicks, cutting-edge e-commerce, applications are forced to become customer-directed. Think ultra-back-end.</p>
+					<h2>There's even more to Us</h2>
+					<p class="lead">Aventador is the industry leader of end-to-end compliance</p>
+					<p>Without preplanned media sourcing, applications are forced to become turn-key. If all of this may seem disorienting to you, that's because it is! Without sufficient ROI metrics, mission-critical, resource-constrained co-branded CAD are forced to become 24/7. Without C2C, you will lack obfuscation. Imagine a combination of XSL and SMIL.</p>
+				</div>
+				<div class="col-sm-6">
+					<h2>Here we are</h2>
+					<p>Do you have a strategy to become proactive, co-branded? A company that can upgrade defiantly will (at some point) be able to strategize faithfully. What does it really mean to transition "strategically"? Do you have a strategy to become six-sigma?</p>
+					<img class="pull-left" src="assets/images/icon-4.png" alt="">
+					<ul class="list-unstyled">
+						<li><i class="icon-ok"></i> Proficiency in technology</li>
+						<li><i class="icon-ok"></i> Fast and acurate response</li>
+						<li><i class="icon-ok"></i> Well informed desicions</li>
+						<li><i class="icon-ok"></i> High quality services</li>
+						<li><i class="icon-ok"></i> Best known customer service</li>
+						<li><i class="icon-ok"></i> Fast ticket systems</li>
+						<li><i class="icon-ok"></i> Proven reliability</li>
+					</ul>
+					<p class="lead">There's nothing we cannot help you with.</p>
+					<p>If all of this may seem disorienting to you, that's because it is! Without sufficient ROI metrics, mission-critical, resource-constrained co-branded CAD are forced to become.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Javascripts
-    ================================================== -->
+	<!-- Services -->
+	<section class="wrapper-lg" id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h1>Services</h1>
+					<p class="lead">There's a plethora of thingies we can do for you</p>
+					<br class="spacer-lg">
+				</div>
+				<div class="col-sm-4">
+					<div class="tile">
+						<div class="hexagon"><i class="icon-mobile-phone icon-4x"></i></div>
+						<h4>Premium Sevice</h4>
+						<p>You can use this template as your blog or portfolio or whatever you wannt! Vernum looks great on every device, check it now and resize your browser!</p>
+						<a href="#" class="btn btn-default btn-large">Learn even more &raquo;</a>
+					</div>
+					<br class="spacer-lg">
+				</div>
+				<div class="col-sm-4">
+					<div class="tile">
+						<div class="hexagon"><i class="icon-desktop icon-4x"></i></div>
+						<h4>Premium Sevice</h4>
+						<p>You can use this template as your blog or portfolio or whatever you wannt! Vernum looks great on every device, check it now and resize your browser!</p>
+						<a href="#" class="btn btn-default btn-large">Learn even more &raquo;</a>
+					</div>
+					<br class="spacer-lg">
+				</div>
+				<div class="col-sm-4">
+					<div class="tile">
+						<div class="hexagon"><i class="icon-tablet icon-4x"></i></div>
+						<h4>Premium Sevice</h4>
+						<p>You can use this template as your blog or portfolio or whatever you wannt! Vernum looks great on every device, check it now and resize your browser!</p>
+						<a href="#" class="btn btn-default btn-large">Learn even more &raquo;</a>
+					</div>
+					<br class="spacer-lg">
+				</div>
+			</div><!-- /.row -->
+			<br class="spacer-md">
+			<hr>
+			<br class="spacer-lg">
+			<div class="row">
+				<div class="col-sm-4">
+					<h2>We Succeed</h2>
+					<p class="lead">We know our stuff</p>
+					<p>Our platform automatically creates Environment Variables for cache credentials: name, host, and port. This allows you to use server variables in place of credentials and to connect to local, staging or production caches without modifying application code.</p>
+					<hr>
+					<p class="lead">All typical bootstrap colors available &raquo;</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="lead">Sociam Media Success</p>
+					<div class="progress">
+						<div class="progress-bar" role="progress-bar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+						<span class="sr-only">80% Complete</span>
+					</div>
+					<p class="lead">Financial Topics Reached</p>
+					<div class="progress">
+						<div class="progress-bar" role="progress-bar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+						<span class="sr-only">80% Complete</span>
+					</div>
+					<p class="lead">Platform Requests Managed</p>
+					<div class="progress">
+						<div class="progress-bar" role="progress-bar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+						<span class="sr-only">80% Complete</span>
+					</div>
+				</div>
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>
 
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<!-- Portfolio -->
+	<section class="wrapper-lg bg-alt" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h1>Our Portfolio</h1>
+					<p class="lead">Don't just take our word for it:</p>
+					<ul id="filters" class="tags">
+						<li><span>Filter Items:</span></li>
+						<li><a class="active" href="#" data-filter="*">Show All</a></li>
+						<li><a href="#" data-filter=".cat-1">styles</a></li>
+						<li><a href="#" data-filter=".cat-2">layout</a></li>
+						<li><a href="#" data-filter=".cat-3">letterpress</a></li>
+						<li><a href="#" data-filter=".cat-1">magazine</a></li>
+						<li><a href="#" data-filter=".cat-2">menu</a></li>
+						<li><a href="#" data-filter=".cat-3">editorial</a></li>
+						<li><a href="#" data-filter=".cat-1">type</a></li>
+						<li><a href="#" data-filter=".cat-2">paper</a></li>
+					</ul>
+					<br class="spacer-lg">
 
-      ga('create', 'UA-51495105-1', 'mushroomlearning.com');
-      ga('send', 'pageview');
-    </script>
+					<!--Portfolio Items-->
+					<ul id="portfolio-container" class="thumbnail-grid">
+						<li class="col-md-3 cat-1">
+							<div class="thumbnail">
+								<a href="assets/images/item_large.png" data-type="fancybox-item" rel="album" >
+									<img src="assets/images/item_small.png" alt="">
+								</a>
+								<div class="caption">
+									<h5><a href="#">Psd Wall Poster Text Effect</a></h5>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3 cat-2">
+							<div class="thumbnail">
+								<a href="assets/images/item_large.png" data-type="fancybox-item" rel="album" >
+									<img src="assets/images/item_small.png" alt="">
+								</a>
+								<div class="caption">
+									<h5><a href="#">Graphic Perspective Mockup</a></h5>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3 cat-3">
+							<div class="thumbnail">
+								<a href="assets/images/item_large.png" data-type="fancybox-item" rel="album" >
+									<img src="assets/images/item_small.png" alt="">
+								</a>
+								<div class="caption">
+									<h5><a href="#">Illustrations Retro Comp Effect</a></h5>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3 cat-2">
+							<div class="thumbnail">
+								<a href="assets/images/item_large.png" data-type="fancybox-item" rel="album" >
+									<img src="assets/images/item_small.png" alt="">
+								</a>
+								<div class="caption">
+									<h5><a href="#">Dark Essential Switches Psd</a></h5>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3 cat-2">
+							<div class="thumbnail">
+								<a href="assets/images/item_large.png" data-type="fancybox-item" rel="album" >
+									<img src="assets/images/item_small.png" alt="">
+								</a>
+								<div class="caption">
+									<h5><a href="#">iPhone 5 Psd Landscape Mockup</a></h5>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3 cat-1">
+							<div class="thumbnail">
+								<a href="assets/images/item_large.png" data-type="fancybox-item" rel="album" >
+									<img src="assets/images/item_small.png" alt="">
+								</a>
+								<div class="caption">
+									<h5><a href="#">Flat Desing Modern Design</a></h5>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3 cat-1">
+							<div class="thumbnail">
+								<a href="assets/images/item_large.png" data-type="fancybox-item" rel="album" >
+									<img src="assets/images/item_small.png" alt="">
+								</a>
+								<div class="caption">
+									<h5><a href="#">Switch UI Retina Display</a></h5>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3 cat-2">
+							<div class="thumbnail">
+								<a href="assets/images/item_large.png" data-type="fancybox-item" rel="album" >
+									<img src="assets/images/item_small.png" alt="">
+								</a>
+								<div class="caption">
+									<h5><a href="#">Water Bubbles Master Piece</a></h5>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Begin Inspectlet Embed Code -->
-    <script type="text/javascript" id="inspectletjs">
-      window.__insp = window.__insp || [];
-      __insp.push(['wid', 1653948167]);
-      (function() {
-        function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
-        if (window.attachEvent){
-          window.attachEvent('onload', __ldinsp);
-        }else{
-          window.addEventListener('load', __ldinsp, false);
-        }
-      })();
-    </script>
-    <!-- End Inspectlet Embed Code -->
+	<!-- Team -->
+	<section class="wrapper-lg" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h1>This Our Team</h1>
+					<p class="lead">You bet we are pretty proud</p>
+				</div>
+				<div class="col-lg-12">
+					<!--Team Members-->
+					<ul class="thumbnail-badges">
+						<li class="col-md-3">
+							<div class="thumbnail">
+								<img class="img-circle" src="assets/images/user_1.jpg" alt="">
+								<div class="caption">
+									<h4>Calisto MT</h4>
+									<p class="ribbon">Chief Designer</p>
+									<p>Pixel pusher, code dabbler, Dominos shareholder, all round ruddy good bloke from blighty.</p>
+									<ul class="social-profiles">
+										<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+										<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+										<li><a class="google-plus" href="#"><i class="icon-google-plus"></i></a></li>
+										<li><a class="pinterest" href="#"><i class="icon-pinterest"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3">
+							<div class="thumbnail">
+								<img class="img-circle" src="assets/images/user_2.jpg" alt="">
+								<div class="caption">
+									<h4>Cambria Serif</h4>
+									<p class="ribbon">Front End Engeneer</p>
+									<p>Well rounded designer with a happy appreciation for good type and Jack Daniels. And pizza.</p>
+									<ul class="social-profiles">
+										<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+										<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+										<li><a class="google-plus" href="#"><i class="icon-google-plus"></i></a></li>
+										<li><a class="pinterest" href="#"><i class="icon-pinterest"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3">
+							<div class="thumbnail">
+								<img class="img-circle" src="assets/images/user_3.jpg" alt="">
+								<div class="caption">
+									<h4>Cooper Black</h4>
+									<p class="ribbon">Web Programmer</p>
+									<p>Web developer from the North of Scotland. Recharges overnight. Has Matrix vision.</p>
+									<ul class="social-profiles">
+										<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+										<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+										<li><a class="google-plus" href="#"><i class="icon-google-plus"></i></a></li>
+										<li><a class="pinterest" href="#"><i class="icon-pinterest"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-3">
+							<div class="thumbnail">
+								<img class="img-circle" src="assets/images/user_4.jpg" alt="">
+								<div class="caption">
+									<h4>Lucida Sans</h4>
+									<p class="ribbon">Back End Developer</p>
+									<p>Code masher and the lone American of the lot. Fueled by fine Italian espresso. Buono.</p>
+									<ul class="social-profiles">
+										<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+										<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+										<li><a class="google-plus" href="#"><i class="icon-google-plus"></i></a></li>
+										<li><a class="pinterest" href="#"><i class="icon-pinterest"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul><!-- /.thumbnail-badges -->
+				</div><!-- /.col-gl-12 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>
 
-    <!-- Jquery and Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Pricing -->
+	<section class="wrapper-lg bg-alt" id="pricing">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h1>Pricing</h1>
+					<p class="lead">Choice is yours</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="plan">
+						<div class="plan-name">
+							<h3>Starter Pack</h3>
+						</div>
+						<div class="plan-info">
+							<p>Get a helping hand with our products in the members only premium area</p>
+						</div>
+						<div class="plan-price">
+							<h1>$12 <small>/month</small></h1>
+						</div>
+						<ul class="plan-features">
+							<li><i class="icon-ok"></i> Unlimited Support <i class="icon-info-sign" data-toggle="tooltip" data-original-title="Restrictions apply"></i></li>
+							<li><i class="icon-ok"></i> Basic Options</li>
+							<li><i class="icon-remove"></i> 100GB Storage</li>
+							<li><i class="icon-remove"></i> Ad Free Streaming</li>
+						</ul>
+						<div class="plan-cta">
+							<p>Unlimited ad-free streaming, unlimited viewers</p>
+							<br class="spacer-md">
+							<a href="#" class="btn btn-default btn-large">Get it now! &raquo;</a>
+						</div>
+					</div><!-- /.plan -->
+				</div>
+				<div class="col-md-4">
+					<div class="plan">
+						<div class="plan-name">
+							<h3>Starter Pack</h3>
+						</div>
+						<div class="plan-info">
+							<p>Get a helping hand with our products in the members only premium area</p>
+						</div>
+						<div class="plan-price">
+							<h1>$24 <small>/month</small></h1>
+						</div>
+						<ul class="plan-features">
+							<li><i class="icon-ok"></i> Unlimited Support <i class="icon-info-sign" data-toggle="tooltip" data-original-title="Restrictions apply"></i></li>
+							<li><i class="icon-ok"></i> Basic Options</li>
+							<li><i class="icon-remove"></i> 100GB Storage</li>
+							<li><i class="icon-remove"></i> Ad Free Streaming</li>
+						</ul>
+						<div class="plan-cta">
+							<p>Unlimited ad-free streaming, unlimited viewers</p>
+							<br class="spacer-md">
+							<a href="#" class="btn btn-default btn-large">Get it now! &raquo;</a>
+						</div>
+					</div><!-- /.plan -->
+				</div>
+				<div class="col-md-4">
+					<div class="plan plan-featured">
+						<div class="plan-name">
+							<h3>Starter Pack</h3>
+						</div>
+						<div class="plan-info">
+							<p>Get a helping hand with our products in the members only premium area</p>
+						</div>
+						<div class="plan-price">
+							<h1>$48 <small>/month</small></h1>
+						</div>
+						<ul class="plan-features">
+							<li><i class="icon-ok"></i> Unlimited Support <i class="icon-info-sign" data-toggle="tooltip" data-original-title="Restrictions apply"></i></li>
+							<li><i class="icon-ok"></i> Basic Options</li>
+							<li><i class="icon-remove"></i> 100GB Storage</li>
+							<li><i class="icon-remove"></i> Ad Free Streaming</li>
+						</ul>
+						<div class="plan-cta">
+							<p>Unlimited ad-free streaming, unlimited viewers</p>
+							<br class="spacer-md">
+							<a href="#" class="btn btn-primary btn-large">Get it now! &raquo;</a>
+						</div>
+					</div><!-- /.plan -->
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Easing - for transitions and effects -->
-    <script src="assets/js/jquery.easing.1.3.js"></script>
+	<!-- Testimonials -->
+	<section class="wrapper-sm" id="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>A final word you might want to hear.</h2>
+					<p class="lead">You can use this template as your blog or portfolio or whatever you wannt!</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- background image strech script -->
-    <script src="assets/js/jquery.backstretch.min.js"></script>
-    <!-- background image fix for IE 9 or less
-       - use same background as set above to <body> -->
-    <!--[if lt IE 9]>
-    <script type="text/javascript">
-    $(document).ready(function(){
-      jQuery("#outer-background-container").backstretch("assets/images/top-panel/background-flipped.jpg");
-    });
-    </script> 
-    <![endif]-->  
-    <!-- detect mobile browsers -->
-    <script src="assets/js/detectmobilebrowser.js"></script>
+	<section class="wrapper-sm bg-alt">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<blockquote class="twitter-tweet"><p>Pro tip: if you write to me in spanish or portuguese, sometimes I respond purely as an excuse to get to use such beautiful languages.</p>&mdash; Pamela Fox (@pamelafox) <a href="https://twitter.com/pamelafox/statuses/338409423179501568">May 25, 2013</a></blockquote>
+				</div>
+				<div class="col-sm-4">
+					<blockquote class="twitter-tweet"><p>Web developers have it all: money, freedom, respect. But is there value in what we do? <a href="http://t.co/3RjmPOdaah">http://t.co/3RjmPOdaah</a> This is a hell of a read.</p>&mdash; Brad Frost (@brad_frost) <a href="https://twitter.com/brad_frost/statuses/348948549226082304">June 23, 2013</a></blockquote>
+				</div>
+				<div class="col-sm-4">
+					<blockquote class="twitter-tweet"><p>Kinda blown away by the responses to my recent post. Thank you! Now I want to get others sharing their views on the same subject.</p>&mdash; Ana Hevesi (@anoemi) <a href="https://twitter.com/anoemi/statuses/346741976755998721">June 17, 2013</a></blockquote>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- owl carousel js -->
-    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+	<!-- contact -->
+	<section class="wrapper-lg" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Contact Us</h2>
+					<p class="lead">You can reach us any time</p>
+					<div class="well">
+						<address>
+							<strong>Aventador Industries</strong><hr>
+							795 Folsom Ave, Suite 600<br>
+							San Francisco, CA 94107<br>
+							<abbr title="Telephone Number">Tel.:</abbr> (123) 456-7890br<br>
+							<a href="mailto:#">info@graphikaria.com</a><hr>
+						</address>
+						<p>We are open monday through friday from 8:00 am to 6:00 pm and saturdays from 10:00 am to 4:00 pm we'll be glad to have you here.</p>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<form role="form">
+						<fieldset>
+							<div class="form-group">
+								<label class="hidden" for="name">Name:</label>
+								<input class="form-control" type="text" id="name" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label class="hidden" for="email">Email:</label>
+								<input class="form-control" type="email" id="email" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<label class="hidden" for="company">Company:</label>
+								<input class="form-control" type="text" id="company" placeholder="Company">
+							</div>
+							<div class="form-group">
+								<label class="hidden" for="comment">Comment:</label>
+								<textarea class="form-control" rows="7" id="comment" placeholder="Your comments..."></textarea>
+							</div>
+							<label class="checkbox">
+								<input type="checkbox"> CC to myself
+							</label>
+							<button type="submit" class="btn btn-large btn-primary">Send Now <i class="icon-chevron-sign-right"></i></button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Custom functions for this theme -->
-    <script src="assets/js/functions.min.js"></script>
-    <script src="assets/js/initialise-functions.js"></script>
-    
-    <!-- IE9 form fields placeholder fix -->
-    <!--[if lt IE 9]>
-    <script>contact_form_IE9_placeholder_fix();</script>
-    <![endif]-->  
-  </head>
+	<!-- Footer -->
+	<footer class="bg-alt">
+		<div class="wrapper-sm footer-main">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<h3>External Sources</h3>
+						<ul class="list-unstyled">
+							<li><i class="icon-ok"></i> <a href="#">Website Network</a></li>
+							<li><i class="icon-ok"></i> <a href="#">Watch Live Events</a></li>
+							<li><i class="icon-ok"></i> <a href="#">Brand Solutions</a></li>
+							<li><i class="icon-ok"></i> <a href="#">Strategy &amp; Branding</a></li>
+							<li><i class="icon-ok"></i> <a href="#">Plans &amp; Pricing</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<h3>Event Photos</h3>
+						<ul class="stream-img">
+							<li><a href="#"><img src="assets/images/flickr_1.jpg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/flickr_2.jpg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/flickr_3.jpg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/flickr_4.jpg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/flickr_5.jpg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/flickr_6.jpg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/flickr_7.jpg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/flickr_8.jpg" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<h3>Quick Contact</h3>
+						<ul class="list-unstyled">
+							<li><i class="icon-angle-right"></i> <a href="#">9am-6pm ET Mon-Fri</a></li>
+							<li><i class="icon-angle-right"></i> <a href="#">US (877) 977-8732</a></li>
+							<li><i class="icon-angle-right"></i> <a href="#">International +1 646 490 1679</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<h3>Follow Us</h3>
+						<ul class="social-profiles">
+							<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+							<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+							<li><a class="google-plus" href="#"><i class="icon-google-plus"></i></a></li>
+							<li><a class="pinterest" href="#"><i class="icon-pinterest"></i></a></li>
+						</ul>
+						<p>We are friendly. Give us a ding!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper-sm footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p>All Rights Reserved ® Designed by <a href="http://twitter.com/heyallanmoreno" target="_blank">@heyallanmoreno</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-  <body>
-
-    <div class="background-image-overlay"></div>
-
-    <div id="outer-background-container" data-default-background-img="assets/images/top-panel/background-flipped-small.jpg" style="background-image:url(assets/images/top-panel/background-flipped-small.jpg);"></div>
-    <!-- end: #outer-background-container -->    
-
-    <!-- Outer Container -->
-    <div id="outer-container">
-
-      <!-- Left Sidebar -->
-      <section id="left-sidebar">
-        
-        <div class="logo">
-          <a href="#intro" class="link-scroll"><a><img src="assets/images/logo-rounded.png" alt="Mushroom Learning"></a>
-        </div><!-- .logo -->
-
-        <!-- Menu Icon for smaller viewports -->
-        <div id="mobile-menu-icon" class="visible-xs" onClick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
-
-        <ul id="main-menu">
-          <li id="menu-item-home" class="menu-item scroll"><a href="#home">Home</a></li>
-          <li id="menu-item-overview" class="menu-item sub-menu-item scroll"><a href="#why-code"><img src="assets/images/flaticons/nav-bar-arrow.png" alt="arrow">Why Code?</a></li>
-          <!-- <li id="menu-item-carousel1" class="menu-item sub-menu-item scroll"><a href="#carousel1"><img src="assets/images/flaticons/nav-bar-arrow.png" alt="arrow">Testimonials</a></li> -->
-          <li id="menu-item-about-us" class="menu-item sub-menu-item scroll"><a href="#about-us"><img src="assets/images/flaticons/nav-bar-arrow.png" alt="arrow">About</a></li>
-          <li id="menu-item-team" class="menu-item sub-menu-item scroll"><a href="#team"><img src="assets/images/flaticons/nav-bar-arrow.png" alt="arrow">Founders</a></li>
-          <li id="menu-item-summer-camp" class="menu-item scroll"><a href="/summer-camp">Summer Camp</a></li>
-          <li id="menu-item-fall-programs" class="menu-item scroll"><a href="/fall-programs">Fall Programs</a></li>
-          <li id="menu-item-workshop" class="menu-item scroll"><a href="/workshops">Workshops</a></li>          
-          <!-- <li id="menu-item-about-us" class="menu-item scroll"><a href="/about-us">About us</a></li>           -->
-          <li id="menu-item-faq-panel" class="menu-item scroll"><a href="/faq">FAQ</a></li>
-        </ul><!-- #main-menu -->
-      </section><!-- #left-sidebar -->
-      <!-- end: Left Sidebar -->
-
-      <section id="main-content" class="clearfix">
-        
-        <article id="home" class="section-wrapper clearfix" data-custom-background-img="assets/images/top-panel/background-flipped-small.jpg">
-          <div class="content-wrapper clearfix">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-12 col-md-12">
-                  <section class="top-nav-callout">
-                    <a href="/summer-camp"><img src="assets/images/flaticons/badge-6.png" alt="Mushroom Learning summer camp"></a>
-                    <a href="/workshops"><img src="assets/images/flaticons/badge-7.png" alt="Mushroom Learning summer camp"></a>
-                  </section>
-                </div>
-                <div class="col-sm-10 col-md-9 pull-right">
-                    <section class="feature-text">
-                      <h2 class="h1-resizing">Learn to <span class="top-panel-emphasis">code.</span></h2>
-                      <h2 class="h1-resizing">Solve <span class="top-panel-emphasis">problems.</span></h2>
-                      <h2 class="h1-resizing">Shape the <span class="top-panel-emphasis">future.</span></h2>
-                      <p id="top-panel-subtext">Join Mushroom Learning's one-week summer camp that teaches students computational thinking, problem solving, and building a webpage from scratch using HTML, CSS, and JavaScript.</p>
-                      
-                    </section>
-
-                </div><!-- .col-sm-10 -->
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                  <a class="typeform-share btn btn-primary btn-lg active typeform-button2 round-4" role="button" href="https://mushroomlearning.typeform.com/to/g6IqRe" data-mode="2" target="_blank" >Set up a time to talk</a>
-                  <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                  <h3 style="margin-top: -1em;">Or call us at 424-244-9794</h3>
-                </div>
-              </div>
-            </div>
-          </div><!-- .content-wrapper -->
-        </article><!-- .section-wrapper -->
-
-        <article id="why-code" class="section-wrapper clearfix" data-custom-background-img="assets/images/team-panel/background-small.jpg">
-          <section class="page-block team" id="team">
-            <div class="container">
-              <h1 class="heading-center new-page-heading h1-resizing">Mushroom Learning</h1>
-              <h2 class="section-title heading-center home-subheaders">Why Code?</h2>
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                  <div class="videoWrapper">
-                    <iframe width="560" height="315" src="//www.youtube.com/embed/nKIu9yen5nc?rel=0" frameborder="0" allowfullscreen></iframe>
-                  </div>
-                  <br><br>
-                  <p class="overview-p">Computer science develops students’ computational and critical thinking skills and shows them how to create, not simply use, new technologies. Mushroom Learning believes this fundamental knowledge is needed to prepare students for the 21st century, regardless of their ultimate field of study or occupation.</p>
-                  <p class="overview-p">The breadth of ways in which computing knowledge prepares people for multiple careers is borne out by looking at the people working in computing occupations by sector. In fact, over 70 percent of computing occupations are outside of the information technology industry: 9 percent are in information services, 12 percent are in financial services, 36 percent are in professional and business services, 7 percent are in government and public education services, and 12 percent are in manufacturing. The College Board states studying AP Computer Science can open the pathway to 130 career areas and 48 college majors.</p>
-                  <p class="overview-p">At Mushroom Learning, students have a chance to get introduced to computer science before taking a class at the AP level. Mushroom Learning programs focus on front-end web development languages like HTML, CSS, and JavaScript. These languages have a more forgiving syntax and give immediate visual feedback to students. They are also currently the most in demand coding languages in industry. These reasons combine to give Mushroom Learning students a decided edge in computer science.</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </article>
-
-        <article id="about-us" class="section-wrapper clearfix" data-custom-background-img="assets/images/team-panel/background-small.jpg">
-          <section class="page-block team" id="team">
-            <div class="container">
-              <h2 class="section-title heading-center home-subheaders">About Mushroom Learning</h2>
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
-                  <img class="img-circle-thumbnail img-center" src="assets/images/logo-rounded.png" alt="Mushroom Learning Logo"/>
-                  <p class="overview-p">Mushroom Learning started in Austin, TX as a subset of <a href="http://www.makersquare.com">MakerSquare's</a> adult coding program. From promotional workshops to longitudinal courses, Mushroom Learning was recently recognized by Google and code.org for delivering coding education to local public, private, and charter schools.</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </article>
-
-        <article id="team" class="section-wrapper clearfix" data-custom-background-img="assets/images/team-panel/background-small.jpg">
-          <section class="page-block team" id="team">
-            <div class="container">
-              <h2 class="section-title heading-center home-subheaders">Mushroom Learning Founders</h2>
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
-                  <img class="img-circle-thumbnail img-center" src="assets/images/team-panel/mike.jpg" alt="Mushroom Learning Michael"/>
-                  <h3>Michael</h3>
-                  <p>Michael brings a passion for education and years of experience in the educational technology space beginning at <a href="http://www.revolutionprep.com" target="_blank">Revolution Prep</a> and most recently at <a href="http://www.edlio.com" target="_blank">Edlio</a>. He is excited to be a part of a great team and help make education accessible to all.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <img class="img-circle-thumbnail img-center" src="assets/images/team-panel/muhammad.jpg" alt="Mushroom Learning Muhammad"/>
-                  <h3>Muhammad</h3>
-                  <p>A former Teen Jeopardy! semi-finalist, Muhammad has been involved with technology and education in many ways. He was previously a product manager and mentor at <a href="http://www.revolutionprep.com" target="_blank">Revolution Prep</a>, a developer at <a href="http://www.fullscreen.net" target="_blank">Fullscreen</a>, and most recently helped <a href="http://www.makersquare.com" target="_blank">MakerSquare</a> design curriculum for kids.</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </article>
-
-      </section><!-- #main-content -->
-
-      <!-- Footer -->
-      <section id="footer">
-
-        <!-- Go to Top -->
-        <div id="go-to-top" onclick="scroll_to_top();"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
-
-        <ul class="social-icons">
-          <li><a href="http://www.facebok.com/MushroomK12" target="_blank" title="Facebook"><img src="assets/images/theme_images/social_icons/facebook.png" alt="Facebook"></a></li>
-          <li><a href="http://www.twitter.com/MushroomK12" target="_blank" title="Twitter"><img src="assets/images/theme_images/social_icons/twitter.png" alt="Twitter"></a></li>
-        </ul>
-
-        <!-- copyright text -->
-        <div class="footer-text-line">&copy; 2014 Mushroom Learning</div>
-      </section>
-      <!-- end: Footer -->      
-
-    </div><!-- #outer-container -->
-    <!-- end: Outer Container -->
-
-    <!-- Modal -->
-    <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
-    <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <div class="modal-body temp-modal">
-          </div><!-- .modal-body -->
-        </div><!-- .modal-content -->
-      </div><!-- .modal-dialog -->
-    </div><!-- .modal -->    
-
-
-  </body>
+	<!-- last but not least the javascript -->
+	<!-- If you update to jQuery latest, also update to FancyBox v2 at http://fancyapps.com/fancybox/ -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.3.min.js"><\/script>')</script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.anchor.js"></script>
+	<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script src="assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script src="assets/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script src="assets/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script src="assets/js/jquery.isotope.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// Bootstrap tooltips
+			$('[data-toggle="tooltip"]').tooltip();
+			// Fancybox galllery
+			$('[data-type="fancybox-item"]').fancybox({
+				'transitionIn'  :   'elastic',
+				'transitionOut' :   'elastic',
+				'speedIn'       :   600, 
+				'speedOut'      :   200, 
+				'overlayShow'   :   true
+			});
+			// initialize Isotope inside $(window).load() instead of $(document).ready()
+			// because Isotope needs to measure media size to avoid overlapping
+			$(window).load(function(){
+				// isotope filter setup
+				var $container = $('#portfolio-container');
+				$container.isotope({
+					filter: "*",
+					animationOptions: {
+						duration: 750,
+						easing: 'linear',
+						queue: false,
+					}
+				});
+				// isotope filter button
+				$("#filters a").click(function(){
+					var selector = $(this).attr('data-filter');
+					$container.isotope({ 
+						filter: selector,
+						animationOptions: {
+							duration: 750,
+							easing: 'linear',
+							queue: false,
+						}
+					});
+					return false;
+				});
+				// filter behavior
+				var $optionSets = $('#filters'),
+				$optionLinks = $optionSets.find('a');
+				$optionLinks.click(function(){
+					var $this = $(this);
+					// don't proceed if already selected
+					if ( $this.hasClass('active') ) {
+						return false;
+					}
+					// add active class to selected filter tag
+					var $optionSet = $this.parents('#filters');
+					$optionSet.find('.active').removeClass('active');
+					$this.addClass('active');
+				});
+			});
+		});
+	</script>
+</body>
 </html>

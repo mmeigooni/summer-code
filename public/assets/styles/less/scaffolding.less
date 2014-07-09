@@ -1,0 +1,132 @@
+// Scaffolding
+// -------------------------
+body {
+	padding-top: 50px;
+	color: @text-color;
+	font-size: @base-font-size;
+	background: @white;
+}
+a {
+	color: @link-color;
+	&:hover, &:focus {
+		color: @link-color-hover;
+		text-decoration: none;
+	}
+}
+h1, h2, h3, h4, h5, h6 {
+	color: @base-heading-color;
+}
+
+// Sectioning
+// -------------------------
+.wrapper-sm {
+	width: auto;
+	padding: 20px 0;
+}
+.wrapper-lg {
+	width: auto;
+	padding: 80px 0;
+}
+
+// Alternative styles
+// -------------------------
+.bg-alt {
+	background: @silver;
+	border-top: 1px solid darken(@silver, 5%);
+	border-bottom: 1px solid darken(@silver, 5%);
+	hr {
+		border-top-color: darken(@silver, 5%);
+	}
+}
+
+
+// List - images (flickr, ads, etc).
+// -------------------------
+.stream-img {
+	padding: 0;
+	 li {
+		display: inline-block;
+		margin: 0 5px 10px 0;
+	}
+}
+
+// List - social media icons
+// -------------------------
+.social-profiles {
+	padding-left: 0;
+	li {
+		display: inline;
+		text-align: center;
+		a {
+			display: inline-block;
+			font-size: 20px;
+			width: 40px;
+			height: 40px;
+			color: #fff;
+			.border-radius(2px);
+			&:hover {
+				color: #fff;
+				text-decoration: none;
+			}
+			&.twitter {
+				background: @twitter-color;
+				&:hover {
+					background: darken(@twitter-color, 15%);
+				}
+			}
+			&.facebook {
+				background: @facebook-color;
+				&:hover {
+					background: darken(@facebook-color, 15%);
+				}
+			}
+			&.google-plus {
+				background: @google-plus-color;
+				&:hover {
+					background: darken(@google-plus-color, 15%);
+				}
+			}
+			&.pinterest {
+				background: @pinterest-color;
+				&:hover {
+					background: darken(@pinterest-color, 15%);
+				}
+			}
+			i[class*="icon-"] {
+				display: inline-block;
+				padding-top: 10px;
+			}
+		}
+	}
+}
+
+.tile {
+	background: @silver;
+	padding: 20px;
+	text-align: center;
+	.border-radius(4px);
+}
+
+// Spacer breaks
+// -------------------------
+br[class*="spacer"] {
+	display: block;
+	content: " ";
+}
+.spacer-sm {
+	margin-bottom: 10px;
+	line-height: 10px; // IE
+}
+.spacer-md {
+	margin-bottom: 20px;
+	line-height: 20px; // IE
+}
+.spacer-lg {
+	margin-bottom: 40px;
+	line-height: 40px; // IE
+}
+.spacer-xl {
+	margin-bottom: 80px;
+	line-height: 80px; // IE
+}
+
