@@ -36,7 +36,7 @@
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
-					<li><a href="#services">Services</a></li>
+					<li><a href="#programs">Programs</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#team">Team</a></li>
 					<li><a href="#pricing">Pricing</a></li>
@@ -44,9 +44,8 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle nav-bar-highlight" data-toggle="dropdown">Home <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#programs">Coding Programs</a></li>
 							<li><a href="#">Separated link</a></li>
 							<li><a href="#">One more separated link</a></li>
 						</ul>
@@ -61,11 +60,16 @@
 	<section id="top-panel">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 text-left">
+				<div class="col-lg-12 col-md-12 col-sm-12">
 	        <h2 class="h1-resizing">Learn to <span class="top-panel-emphasis">code.</span></h2>
 	        <h2 class="h1-resizing">Solve <span class="top-panel-emphasis">problems.</span></h2>
 	        <h2 class="h1-resizing">Shape the <span class="top-panel-emphasis">future.</span></h2>
-	        <p id="top-panel-subtext-1">Join one of Mushroom Learning's awesome coding programs!</p>
+	      </div>
+	    </div>
+	    <div class="row">
+	    	<div class="col-lg-12 col-md-12 col-sm-12">
+	        <p id="top-panel-subtext-1">Join one of Mushroom Learning's awesome coding programs.</p>
+	        <p id="top-panel-subtext-2">Learn more about HTML/CSS, JavaScript, and even Minecraft!</p>
 	        <ul>
 	        	<li><img src="assets/images/html5-rounded.png" alt=""></li>
 	        	<li><img src="assets/images/css-rounded.png" alt=""></li>
@@ -94,57 +98,92 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<h2>Why Code?</h2>
-					<p class="lead"></p>
-					<p>Mushroom Learning started in Austin, TX as a subset of <a href="http://www.makersquare.com">MakerSquare's</a> adult coding program. From promotional workshops to longitudinal courses, Mushroom Learning was recently recognized by Google and code.org for delivering coding education to local public, private, and charter schools.</p>
-					<h2>There's even more to Us</h2>
-					<p class="lead">Aventador is the industry leader of end-to-end compliance</p>
-					<p>Without preplanned media sourcing, applications are forced to become turn-key. If all of this may seem disorienting to you, that's because it is! Without sufficient ROI metrics, mission-critical, resource-constrained co-branded CAD are forced to become 24/7. Without C2C, you will lack obfuscation. Imagine a combination of XSL and SMIL.</p>
-				</div>
-				<div class="col-sm-6">
-					<h2>Why Code?</h2>
 					<div class="videoWrapper">
 						<iframe width="560" height="315" src="//www.youtube.com/embed/nKIu9yen5nc?rel=0" frameborder="0" allowfullscreen></iframe>
 					</div>
-					<p>Computer science develops students’ computational and critical thinking skills and shows them how to create, not simply use, new technologies. Mushroom Learning believes this fundamental knowledge is needed to prepare students for the 21st century, regardless of their ultimate field of study or occupation.</p>
-          <p>At Mushroom Learning, students have a chance to get introduced to computer science before taking a class at the AP level. Mushroom Learning programs focus on front-end web development languages like HTML, CSS, and JavaScript. These languages have a more forgiving syntax and give immediate visual feedback to students. They are also currently the most in demand coding languages in industry. These reasons combine to give Mushroom Learning students a decided edge in computer science.</p>
+				</div>
+				<div class="col-sm-6" id="panel-2-right">
+					<div id="about-us-logo"><img src="assets/images/logo-transparent-background.png" alt=""></div>
+					<p>Mushroom Learning started in Austin, TX as a subset of <a href="http://www.makersquare.com">MakerSquare's</a> adult coding program. From promotional workshops to longitudinal courses, Mushroom Learning was recently recognized by Google and code.org for delivering coding education to local public, private, and charter schools.</p>
+				</div>
+			</div>
+			<div class="row" id="quotes">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="col-lg-3">
+						<img src="assets/images/jobs.png" alt="" id="left-quote-pic">
+					</div>
+					<div class="col-lg-9">
+						<p class="quote-width">"I think everybody in this country should learn how to program a computer because it teaches you how to think."</p>
+						<p>Steve Jobs</p>
+						<p>Co-Founder and CEO, Apple</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="col-lg-3">
+						<img src="assets/images/susan.png" alt="" id="middle-quote-pic">
+					</div>
+					<div class="col-lg-9">
+						<p class="quote-width">"Learning to code makes kids feel empowered, creative, and confident. If we want our young women to retain these traits into adulthood, a great option is to expose them to computer programming in their youth."</p>
+						<p>Susan Wojcicki</p>
+						<p>Senior Vice President, Google</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="col-lg-3">
+						<img src="assets/images/gabe.png" alt="" id="right-quote-pic">
+					</div>
+					<div class="col-lg-9">
+						<p class="quote-width">"The programmers of tomorrow are the wizards of the future. You're going to look like you have magic powers compared to everybody else."</p>
+						<p>Gabe Newell</p>
+						<p>Founder and President, Valve</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Services -->
-	<section class="wrapper-lg" id="services">
+	<!-- Programs -->
+	<section class="wrapper-lg" id="programs">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<h1>Services</h1>
+					<h1>Coding Programs</h1>
 					<p class="lead">There's a plethora of thingies we can do for you</p>
 					<br class="spacer-lg">
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<div class="tile">
-						<div class="hexagon"><i class="icon-sun icon-4x"></i></div>
-						<h4>Summer Camp</h4>
+						<div class="hexagon"><i class="icon-cogs icon-4x"></i></div>
+						<h4>Workshops</h4>
 						<p>You can use this template as your blog or portfolio or whatever you wannt! Vernum looks great on every device, check it now and resize your browser!</p>
-						<a href="#" class="btn btn-default btn-large">Learn even more &raquo;</a>
+						<a href="#" class="btn btn-default btn-large">Learn more &raquo;</a>
 					</div>
 					<br class="spacer-lg">
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-3">
+					<div class="tile">
+						<div class="hexagon"><i class="icon-sun icon-4x"></i></div>
+						<h4>Summer Camp</h4>
+						<p>Have you ever wanted to build a website from scratch? We use a combination of guided exercises, independent challenges, and unplugged activities to teach the fundamentals of HTML, CSS, and a touch of JavaScript. No coding experience required!</p>
+						<a href="#" class="btn btn-default btn-large">Learn more &raquo;</a>
+					</div>
+					<br class="spacer-lg">
+				</div>
+				<div class="col-sm-3">
 					<div class="tile">
 						<div class="hexagon"><i class="icon-group icon-4x"></i></div>
 						<h4>Fall Classes</h4>
 						<p>You can use this template as your blog or portfolio or whatever you wannt! Vernum looks great on every device, check it now and resize your browser!</p>
-						<a href="#" class="btn btn-default btn-large">Learn even more &raquo;</a>
+						<a href="#" class="btn btn-default btn-large">Learn more &raquo;</a>
 					</div>
 					<br class="spacer-lg">
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<div class="tile">
 						<div class="hexagon"><i class="icon-user icon-4x"></i></div>
 						<h4>Private Tutoring</h4>
 						<p>You can use this template as your blog or portfolio or whatever you wannt! Vernum looks great on every device, check it now and resize your browser!</p>
-						<a href="#" class="btn btn-default btn-large">Learn even more &raquo;</a>
+						<a href="#" class="btn btn-default btn-large">Learn more &raquo;</a>
 					</div>
 					<br class="spacer-lg">
 				</div>

@@ -859,36 +859,47 @@ br[class*="spacer"] {
   background-size: cover;
   height: 650px;
   padding: 2em;
-  font-size: 2em;
+  text-align: left;
+  font-size: 1em;
 }
-
-#main-content {
-    display:block;
-    position: relative;
-    margin:20px 5%;
-    overflow: visible;
-    min-height:1px;
-    font-family: 'open_sanslight', sans-serif;
-}
+    @media (min-width: 480px) {
+      #top-panel {
+        font-size: 1.25em;
+      }
+      #top-panel ul li img {
+        width: 70px;
+      }
+    }
 
     @media (min-width: 768px) {
-        #main-content {
-            margin:0 3% 0 22%;
-            height:100%;
-        }
+      #top-panel {
+        font-size: 1.5em;
+      }
+      #top-panel ul li img {
+        width: 80px;
+      }
     }
     @media (min-width: 992px) {
-        #main-content {
-            margin:0 6.5% 0 24.5%;
-        }
+      #top-panel {
+        font-size: 1.75em;
+      }
+      #top-panel ul li img {
+        width: 90px;
+      }
     }
     @media (min-width: 1200px) {
-
+      #top-panel {
+        font-size: 2em;
+      }
+      #top-panel ul li img {
+        width: 100px;
+      }
     }
 
 #top-panel ul {
   list-style-type: none;
   padding-top: 1em;
+  padding-left: 0em;
 }
 
 #top-panel ul li {
@@ -897,8 +908,30 @@ br[class*="spacer"] {
 }
 
 #top-panel ul li img {
-  width: 100px;
+  width: 60px;
 }
+
+    @media (min-width: 480px) {
+      #top-panel ul li img {
+        width: 70px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      #top-panel ul li img {
+        width: 80px;
+      }
+    }
+    @media (min-width: 992px) {
+      #top-panel ul li img {
+        width: 90px;
+      }
+    }
+    @media (min-width: 1200px) {
+      #top-panel ul li img {
+        width: 100px;
+      }
+    }
 
 .h1-resizing {
   font-size: 2.45em;
@@ -923,7 +956,7 @@ br[class*="spacer"] {
 
 #top-panel-subtext-1 {
   width: 75%;
-  margin-top: 2em;
+  margin-top: 1.5em;
   color: white;
   text-shadow:
   3px 3px 0 #000,
@@ -935,7 +968,7 @@ br[class*="spacer"] {
 
 #top-panel-subtext-2 {
   width: 75%;
-  margin-top: 1em;
+  margin-top: .5em;
   color: white;
   text-shadow:
   3px 3px 0 #000,
@@ -945,3 +978,67 @@ br[class*="spacer"] {
    1px 1px 0 #000;
 }
 
+#panel-2-right p {
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+
+#about-us-logo img {
+  padding-top: 4em;
+  width: 42%;
+  margin-left: 29%;
+}
+
+#quotes {
+  padding-top: 5em;
+  text-align: center;
+}
+    @media (min-width: 480px) {
+      #quotes {
+      }
+    }
+
+    @media (min-width: 768px) {
+      #quotes {
+        padding: 0% 20%;
+      }
+    }
+    @media (min-width: 992px) {
+      #quotes {
+        padding: inherit;
+      }
+    }
+    @media (min-width: 1200px) {
+      #quotes {
+        text-align: left;
+        padding: inherit;
+        margin-left: -15%;
+        margin-right: -15%;
+        padding-top: 5%;
+      }
+    }
+#quotes img {
+  width: auto;
+}
+
+.quote-width {
+}
+    @media (min-width: 480px) {
+      .quote-width {
+
+      }
+    }
+
+    @media (min-width: 768px) {
+      .quote-width {
+      }
+    }
+    @media (min-width: 992px) {
+      .quote-width {
+      }
+    }
+    @media (min-width: 1200px) {
+      .quote-width {
+        margin-right: -20%;
+      }
+    }
