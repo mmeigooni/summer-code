@@ -850,23 +850,98 @@ br[class*="spacer"] {
   background-color: #14171a;
 }
 
+
+#top-panel {
+  background: url('../../images/why-learn-code.jpg') no-repeat center center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+  padding: 2em;
+  font-size: 2em;
+}
+
+#main-content {
+    display:block;
+    position: relative;
+    margin:20px 5%;
+    overflow: visible;
+    min-height:1px;
+    font-family: 'open_sanslight', sans-serif;
+}
+
+    @media (min-width: 768px) {
+        #main-content {
+            margin:0 3% 0 22%;
+            height:100%;
+        }
+    }
+    @media (min-width: 992px) {
+        #main-content {
+            margin:0 6.5% 0 24.5%;
+        }
+    }
+    @media (min-width: 1200px) {
+
+    }
+
+#top-panel ul {
+  list-style-type: none;
+  padding-top: 1em;
+}
+
+#top-panel ul li {
+  display: inline;
+  padding-right: 1em;
+}
+
+#top-panel ul li img {
+  width: 100px;
+}
+
 .h1-resizing {
-    font-size: 2.45em !important;
-    display: inline-block; 
-    width: 100%; 
+  font-size: 2.45em;
+  color: #1f2329;
+  text-shadow:
+  1px 1px 0 #fff,
+  -1px -1px 0 #fff,  
+  1px -1px 0 #fff,
+  -1px 1px 0 #fff,
+   1px 1px 0 #fff;
 }
 
 .top-panel-emphasis {
-    color: #005630;
+  color: white;
+  text-shadow:
+  3px 3px 0 #000,
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
 }
 
-#top-panel-subtext {
-    display: inline-block; 
-    width: 100%; 
+#top-panel-subtext-1 {
+  width: 75%;
+  margin-top: 2em;
+  color: white;
+  text-shadow:
+  3px 3px 0 #000,
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
 }
 
-#panel-top-text {
-  text-align: left;
-  font-size: 2em;
-  padding-bottom: 60px;
+#top-panel-subtext-2 {
+  width: 75%;
+  margin-top: 1em;
+  color: white;
+  text-shadow:
+  3px 3px 0 #000,
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
 }
+
