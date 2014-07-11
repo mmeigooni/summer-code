@@ -1229,3 +1229,11 @@ br[class*="spacer"] {
 .highlighted {
   border: 5px solid yellow;
 }
+
+#accordion-faq {
+  font-size: 1.25em;
+}
+
+#accordion-faq .panel {
+  padding-top: 1.25em;
+}
