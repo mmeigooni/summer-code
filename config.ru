@@ -49,7 +49,7 @@ map "/summer-camp" do
       'Content-Type'  => 'text/html', 
       'Cache-Control' => 'public, max-age=86400' 
     },
-    File.open('public/sitemap.xml', File::RDONLY)
+    File.open('public/summer-camp.html', File::RDONLY)
   ]
 }
 end
@@ -75,7 +75,7 @@ map "/workshops" do
       'Content-Type'  => 'text/html', 
       'Cache-Control' => 'public, max-age=86400' 
     },
-    File.open('public/sitemap.xml', File::RDONLY)
+    File.open('public/workshops.html', File::RDONLY)
   ]
 }
 end
@@ -88,7 +88,7 @@ map "/faq" do
       'Content-Type'  => 'text/html', 
       'Cache-Control' => 'public, max-age=86400' 
     },
-    File.open('public/sitemap.xml', File::RDONLY)
+    File.open('public/faq.html', File::RDONLY)
   ]
 }
 end
