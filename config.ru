@@ -67,6 +67,19 @@ map "/fall-programs" do
 }
 end
 
+map "/tutoring" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/tutoring.html', File::RDONLY)
+  ]
+}
+end
+
 map "/workshops" do
   run lambda { |env|
   [
