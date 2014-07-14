@@ -1246,3 +1246,7 @@ br[class*="spacer"] {
 .contact-us-link {
   font-size: 1.5em;
 }
+
+.mushroom-menu-button {
+  width: 49%;
+}
