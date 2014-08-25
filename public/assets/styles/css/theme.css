@@ -1316,3 +1316,15 @@ br[class*="spacer"] {
     text-align: center;
     z-index: 11; /* 1px higher than the overlay layer */
 }
+
+.td-valign {
+  vertical-align: middle !important;
+}
+
+#class-modal-img {
+  width: 250px; 
+}
+
+.modal-custom {
+  width: 50%;
+}

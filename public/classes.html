@@ -36,15 +36,15 @@
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
           <li><a href="/" id="home-url">Home</a></li>
+          <li><a href="/workshops" id="workshops-url">Workshops</a></li>
+          <li><a href="/summer-camp" id="summer-camp-url">Summer Camp</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle nav-bar-highlight" data-toggle="dropdown">Workshops <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle nav-bar-highlight" data-toggle="dropdown">Classes <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="#pricing">About</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </li>
-          <li><a href="/summer-camp" id="summer-camp-url">Summer Camp</a></li>
-          <li><a href="/classes" id="classes-url">Classes</a></li>
           <li><a href="/tutoring" id="tutoring-url">Tutoring</a></li>
           <li><a href="/faq" id="faq-url">FAQ</a></li>
         </ul>
@@ -82,7 +82,7 @@
               <p>Using Mozilla's X-Ray Goggles, students will learn how the skeleton of a website is structured. By the end of the workshop, students will understand basic HTML tags and also remix a website.</p>
             </div>
             <div class="plan-price">
-              <h2 class="tutoring-price-size">Free!</h2>
+              <h2 class="tutoring-price-size">$499</h2>
             </div>
             <ul class="plan-features">
               <li>Hosted after school and on weekends</li>
@@ -96,43 +96,191 @@
           </div><!-- /.plan -->
         </div>
         <div class="col-md-8">
-          <div class="col-md-6">
-            <div class="plan">
-              <div class="plan-name">
-                <h3>Location</h3>
-              </div>
-              <div class="plan-info">
-              </div>
-              <div class="plan-price">
-              </div>
-              <ul class="plan-features box-text-address">
-                <li> 
-                  <p>The City School</p>
-                  <p>11625 West Pico Blvd</p>
-                  <p>Los Angeles, CA 90064</p>
-                </li>
-              </ul>
-            </div><!-- /.plan -->
-          </div>
-          <div class="col-md-6">
-            <div class="plan">
-              <div class="plan-name">
-                <h3>Dates</h3>
-              </div>
-              <div class="plan-info">
-              </div>
-              <div class="plan-price">
-              </div>
-              <ul class="plan-features box-text">
-                <li>July 13th: 2:00pm - 3:00pm</li>
-                <li>July 19th: 10:00am - 11:00am</li>
-              </ul>
-            </div><!-- /.plan -->
-          </div>
           <div class="col-md-12">
-            <div class="typeform-widget" data-url="https://mushroomlearning.typeform.com/to/BduU75" data-text="workshop-request" style="width:100%;height:318px;overflow:hidden;"></div>
-            <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+            <table class="table table-striped" id="tblGrid">
+              <thead id="tblHead">
+                <tr>
+                  <th>Start Date</th>
+                  <th>Meets on (PDT)</th>
+                  <th>Location</th>
+                  <th class="text-right"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="td-valign">9/24/2014</td>
+                  <td class="td-valign">Wednesdays @ 2PM</td>
+                  <td class="td-valign">Community Preparatory Academy</td>
+                  <td class="text-right"><button href="#myModal1" id="openBtn" data-toggle="modal" class="btn btn-default">More info</button></td>
+                </tr>
+                <tr>
+                  <td class="td-valign">10/11/2014</td>
+                  <td class="td-valign">Saturdays @ 10AM</td>
+                  <td class="td-valign">Realm Academy</td>
+                  <td class="text-right"><button href="#myModal2" id="openBtn" data-toggle="modal" class="btn btn-default">More info</button></td>
+                </tr>
+                <tr>
+                  <td class="td-valign">10/12/2014</td>
+                  <td class="td-valign">Sundays @ 2PM</td>
+                  <td class="td-valign">Live Online Class</td>
+                  <td class="text-right"><button href="#myModal3" id="openBtn" data-toggle="modal" class="btn btn-default">More info</button></td>
+                </tr>
+                <tr>
+                  <td class="td-valign">10/15/2014</td>
+                  <td class="td-valign">Wednesdays @ 6:30PM</td>
+                  <td class="td-valign">Live Online Class</td>
+                  <td class="text-right"><button href="#myModal4" id="openBtn" data-toggle="modal" class="btn btn-default">More info</button></td>
+                </tr>
+                <tr>
+                  <td class="td-valign">11/1/2014</td>
+                  <td class="td-valign">Saturdays @ 1PM</td>
+                  <td class="td-valign">Live Online Class</td>
+                  <td class="text-right"><button href="#myModal5" id="openBtn" data-toggle="modal" class="btn btn-default">More info</button></td>
+                </tr>
+                <tr>
+                  <td class="td-valign">11/4/2014</td>
+                  <td class="td-valign">Tuesdays @ 6PM</td>
+                  <td class="td-valign">Live Online Class</td>
+                  <td class="text-right"><button href="#myModal6" id="openBtn" data-toggle="modal" class="btn btn-default">More info</button></td>
+                </tr>
+
+              </tbody>
+            </table>
+            
+
+            <div class="modal fade" id="myModal1">
+              <div class="modal-dialog modal-custom">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <img src="assets/images/logo-side-2.png" alt="" id="class-modal-img">
+                  </div>
+                  <div class="modal-body">
+                    <h3>Schedule</h3>
+                    <table class="table table-striped" id="tblGrid">
+                      <thead id="tblHead">
+                        <tr>
+                          <th>Date</th>
+                          <th>Day</th>
+                          <th>Time (PDT)</th>
+                          <th>Location</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Sep 24</td>
+                          <td>Weds</td>
+                          <td>2:00 - 4:00pm</td>
+                          <td><a href="https://goo.gl/maps/q9Ap5" target="_blank">CPA Charter, 1701 Browning Blvd, Los Angeles, CA 90062</a></td>
+                        </tr>
+                        <tr>
+                          <td>Oct 1</td>
+                          <td>Weds</td>
+                          <td>2:00 - 4:00pm</td>
+                          <td><a href="https://goo.gl/maps/q9Ap5" target="_blank">CPA Charter, 1701 Browning Blvd, Los Angeles, CA 90062</a></td>
+                        </tr>
+                        <tr>
+                          <td>Oct 8</td>
+                          <td>Weds</td>
+                          <td>2:00 - 4:00pm</td>
+                          <td><a href="https://goo.gl/maps/q9Ap5" target="_blank">CPA Charter, 1701 Browning Blvd, Los Angeles, CA 90062</a></td>
+                        </tr>
+                        <tr>
+                          <td>Oct 15</td>
+                          <td>Weds</td>
+                          <td>2:00 - 4:00pm</td>
+                          <td><a href="https://goo.gl/maps/q9Ap5" target="_blank">CPA Charter, 1701 Browning Blvd, Los Angeles, CA 90062</a></td>
+                        </tr>
+                        <tr>
+                          <td>Oct 22</td>
+                          <td>Weds</td>
+                          <td>2:00 - 4:00pm</td>
+                          <td><a href="https://goo.gl/maps/q9Ap5" target="_blank">CPA Charter, 1701 Browning Blvd, Los Angeles, CA 90062</a></td>
+                        </tr>
+                        <tr>
+                          <td>Oct 29</td>
+                          <td>Weds</td>
+                          <td>2:00 - 4:00pm</td>
+                          <td><a href="https://goo.gl/maps/q9Ap5" target="_blank">CPA Charter, 1701 Browning Blvd, Los Angeles, CA 90062</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Enroll now!</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div>
+
+            <div class="modal fade" id="myModal2">
+              <div class="modal-dialog modal-custom">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <img src="assets/images/logo-side-2.png" alt="" id="class-modal-img">
+                  </div>
+                  <div class="modal-body">
+                    <h3>Schedule</h3>
+                    <table class="table table-striped" id="tblGrid">
+                      <thead id="tblHead">
+                        <tr>
+                          <th>Date</th>
+                          <th>Day</th>
+                          <th>Time (PDT)</th>
+                          <th>Location</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Oct 11</td>
+                          <td>Sat</td>
+                          <td>10:00am - 12:00pm</td>
+                          <td><a href="https://goo.gl/maps/zG2ZW" target="_blank">Realm Academy, 400 Pico Blvd, Santa Monica, CA 90405</a></td>
+                        </tr>
+                        <tr>
+                          <td>Oct 18</td>
+                          <td>Sat</td>
+                          <td>10:00am - 12:00pm</td>
+                          <td><a href="https://goo.gl/maps/zG2ZW" target="_blank">Realm Academy, 400 Pico Blvd, Santa Monica, CA 90405</a></td>
+                        </tr>
+                        <tr>
+                          <td>Oct 25</td>
+                          <td>Sat</td>
+                          <td>10:00am - 12:00pm</td>
+                          <td><a href="https://goo.gl/maps/zG2ZW" target="_blank">Realm Academy, 400 Pico Blvd, Santa Monica, CA 90405</a></td>
+                        </tr>
+                        <tr>
+                          <td>Nov 1</td>
+                          <td>Sat</td>
+                          <td>10:00am - 12:00pm</td>
+                          <td><a href="https://goo.gl/maps/zG2ZW" target="_blank">Realm Academy, 400 Pico Blvd, Santa Monica, CA 90405</a></td>
+                        </tr>
+                        <tr>
+                          <td>Nov 8</td>
+                          <td>Sat</td>
+                          <td>10:00am - 12:00pm</td>
+                          <td><a href="https://goo.gl/maps/zG2ZW" target="_blank">Realm Academy, 400 Pico Blvd, Santa Monica, CA 90405</a></td>
+                        </tr>
+                        <tr>
+                          <td>Nov 15</td>
+                          <td>Sat</td>
+                          <td>10:00am - 12:00pm</td>
+                          <td><a href="https://goo.gl/maps/zG2ZW" target="_blank">Realm Academy, 400 Pico Blvd, Santa Monica, CA 90405</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Enroll now!</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+
           </div>
+
         </div>
       </div>
     </div>
@@ -258,8 +406,8 @@
     $('#faq-url').click(function(){
        window.location.href='/faq';
     })
-    $('#classes-url').click(function(){
-       window.location.href='/classes';
+    $('#workshops-url').click(function(){
+       window.location.href='/workshops';
     })
 
     $('#tutoring-url').click(function(){
