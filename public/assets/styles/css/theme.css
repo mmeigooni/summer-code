@@ -1039,7 +1039,7 @@ br[class*="spacer"] {
     }
     @media (min-width: 1200px) {
       .quote-width {
-        margin-right: -20%;
+        margin-right: 0%;
       }
     }
 
