@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mushroom Learning -- Coding Workshops</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Not sure if your child will be into coding? Try out one of our free workshops to get a taste for what web development has in store for them.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Muhammad Meigooni">
+  <link rel="stylesheet" href="assets/styles/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/styles/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/styles/css/theme.css">
+  <link rel="stylesheet" href="assets/fancybox/jquery.fancybox-1.3.4.css">
+  <link rel="stylesheet" href="assets/styles/css/isotope.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+  <![endif]-->
+  <link rel="shortcut icon" href="favicon.png">
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img src="assets/images/logo.png" alt="Mushroom Learning Logo">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/" id="home-url">Home</a></li>
+          <li><a href="/" id="workshops-url">Workshops</a></li>
+          <li><a href="/classes" id="classes-url">Classes</a></li>
+          <li><a href="/tutoring" id="tutoring-url">Tutoring</a></li>
+          <li><a href="/summer-camp" id="summer-camp-url">Summer Camp</a></li>
+          <li><a href="/faq" id="faq-url">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section class="wrapper-lg" id="about" style='background: url("assets/images/congruent_pentagon.png")'>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h1 class="text-center">Terms and Conditions</h1>
+          <br>
+
+          <h3>Cancellation Policy</h3>
+          <p class="lead">Any cancelation more than a week before the course will receive a full refund minus a 5% fee. Any cancellation with less than a week's notice will not be entitled to any refund. Once issued, refunds typically take 5-7 days to post. Refunds will not be issued once a course or private tutoring program begins. In the event of a scheduling conflict, any course enrollment can be moved to another location or rescheduled to a later session without penalty.</p>
+          <p class="lead">In the event that a school or Mushroom Learning cancels a school fundraiser that is not part of a course, all payments for this program are considered a donation to the school and are non-refundable.</p>
+
+          <h3>Disclaimer</h3>
+          <p class="lead">We reserve the right to reschedule or cancel any course. Factors outside of Mushroom Learning's control may affect class schedules. In such events, we do our best to schedule a convenient make-up class; however, we cannot guarantee a make-up session will be scheduled or that the make-up will fit the schedule of every student.</p>
+
+          <h3>Non-Solicitation Agreement</h3>
+          <p class="lead">By becoming a Mushroom Learning customer, you agree that you will not solicit for employment, hire, or engage as an independent contractor, or permit any organization directly or indirectly controlled by you to solicit for employment, hire, or engage as an independent contractor, any person employed by Mushroom Learning at any time during the term of Mushroom Learning's provision of services to you. Any additional services desired of a Mushroom Learning employee may be requested through Mushroom Learning at 424-244-9794.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+  <footer class="bg-alt">
+    <div class="wrapper-sm footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-sm-offset-3 col-md-3" style="margin-left: 32%;">
+            <h3>Quick Contact</h3>
+            <ul class="list-unstyled">
+              <li><i class="icon-angle-right"></i> 9am-6pm PST Mon-Fri</li>
+              <li><i class="icon-angle-right"></i> US (424) 244-9794</li>
+              <li><i class="icon-angle-right"></i> <a href="/terms">Terms and Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <h3>Follow Us</h3>
+            <ul class="social-profiles">
+              <li><a class="twitter" href="http://twitter.com/MushroomK12"><i class="icon-twitter"></i></a></li>
+              <li><a class="facebook" href="https://www.facebook.com/MushroomK12"><i class="icon-facebook"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.3.min.js"><\/script>')</script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.anchor.js"></script>
+  <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="assets/fancybox/jquery.easing-1.3.pack.js"></script>
+  <script src="assets/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+  <script src="assets/js/jquery.isotope.min.js"></script>
+  <script>
+
+    $('#workshops-url').click(function(){
+       window.location.href='/workshops';
+    })
+
+    $('#home-url').click(function(){
+       window.location.href='/';
+    })
+    $('#faq-url').click(function(){
+       window.location.href='/faq';
+    })
+
+    $('#classes-url').click(function(){
+       window.location.href='/classes';
+    })
+    
+    $('#summer-camp-url').click(function(){
+       window.location.href='/summer-camp';
+    })
+
+    $('#tutoring-url').click(function(){
+       window.location.href='/tutoring';
+    })
+
+  </script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51495105-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
