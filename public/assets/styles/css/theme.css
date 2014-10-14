@@ -1328,3 +1328,7 @@ br[class*="spacer"] {
 .modal-custom {
   width: 50%;
 }
+
+.long-img {
+  width: 100%;
+}
