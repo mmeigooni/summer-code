@@ -25,12 +25,12 @@ body {
 }
 
 a {
-	color: #f0f0f0;
+	color: #DDF25B;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #000;
+	color: #29FD95;
 }
 
 .main,

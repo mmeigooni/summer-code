@@ -1392,3 +1392,7 @@ br[class*="spacer"] {
 #class-logo {
   width: 270px;
 }
+
+.cbp_tmlabel img {
+  width: 100%;
+}
