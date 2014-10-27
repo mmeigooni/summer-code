@@ -1332,3 +1332,30 @@ br[class*="spacer"] {
 .long-img {
   width: 100%;
 }
+
+#dasky {
+  background: url("../../images/congruent_outline.png");
+}
+
+#timeline-logo {
+  width: 270px;
+  margin: 30px;
+}
+
+#welcome > img {
+  left: -140px;
+  max-width: 320px;
+}
+
+#welcome > p {
+  margin-left: 200px;
+}
+
+#welcome > p > a {
+  color: #29FD95;
+  text-decoration: none;
+}
+#welcome > p > a:hover {
+  color: #04773F;
+  text-decoration: underline;
+}
