@@ -1359,3 +1359,14 @@ br[class*="spacer"] {
   color: #04773F;
   text-decoration: underline;
 }
+.dsk-supported .active .dsk-circle {
+  background: #006a36;
+}
+
+.dsk-supported .dsk-info h2 {
+  color: #00A655;
+}
+
+.dsk-supported .dsk-link {
+  background: rgba(0,166,85,.8)
+}
