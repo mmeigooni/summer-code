@@ -1377,4 +1377,18 @@ br[class*="spacer"] {
 
 .bg-black {
   background: url("../../images/congruent_outline.png");
+  text-align: center;
+  color: white;
+}
+
+.bg-black h1 {
+  color: white;
+}
+
+.bg-black .row {
+  margin-top: 20px;
+}
+
+#class-logo {
+  width: 270px;
 }
