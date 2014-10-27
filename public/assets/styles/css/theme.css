@@ -1370,3 +1370,7 @@ br[class*="spacer"] {
 .dsk-supported .dsk-link {
   background: rgba(0,166,85,.8)
 }
+
+.dsk-supported .dsk-content>img {
+  max-width: 300px;
+}
