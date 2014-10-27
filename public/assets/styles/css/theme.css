@@ -1374,3 +1374,7 @@ br[class*="spacer"] {
 .dsk-supported .dsk-content>img {
   max-width: 300px;
 }
+
+.bg-black {
+  background: url("../../images/congruent_outline.png");
+}
