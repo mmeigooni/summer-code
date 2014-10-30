@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Mushroom Learning: Class 1</title>
     <meta name="author" content="Muhammad Meigooni" />
-    <link rel="stylesheet" type="text/css" href="assets/styles/css/theme.css" />
     <link rel="stylesheet" type="text/css" href="assets/styles/css/default.css" />
     <link rel="stylesheet" type="text/css" href="assets/styles/css/component.css" />
-    <script src="assets/js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/styles/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/css/class.css" />
   </head>
   <body>
     <div class="container">
@@ -18,6 +18,10 @@
         <nav>
           <a href="/synergy" class="icon-arrow-left" data-info="back to main class page">back to main class page</a>
         </nav>
+        
+        
+
+
       </header> 
       <div class="main">
         <ul class="cbp_tmtimeline">
@@ -86,7 +90,29 @@
             </div>
           </li>
         </ul>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Useful Links
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+              <div class="list-group">
+                URL of Git repository: <a href="https://github.com/mmeigooni/boilerplate.git" target="_blank">https://github.com/mmeigooni/boilerplate.git</a>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
       </div>
     </div>
+
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/jquery-1.10.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>

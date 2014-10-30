@@ -1,0 +1,25 @@
+/*Custom CSS for the individual class pages*/
+
+#class-logo {
+  width: 270px;
+}
+
+.cbp_tmlabel img {
+  width: 100%;
+}
+
+.panel {
+  background: #6CEEA4;
+  color: #006a36;
+  font-size: 1.2em;
+}
+
+.panel-default>.panel-heading {
+  background: #006a36;
+  color: white;
+}
+
+.list-group {
+  margin-top: 20px;
+  margin-left: 20px;
+}

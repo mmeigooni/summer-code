@@ -1396,3 +1396,8 @@ br[class*="spacer"] {
 .cbp_tmlabel img {
   width: 100%;
 }
+
+.panel-default>.panel-heading {
+  background: #006a36;
+  color: white;
+}
