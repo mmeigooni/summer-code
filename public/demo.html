@@ -208,6 +208,9 @@
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/dasky.js"></script>
   <script type="text/javascript">
+  if(window.innerHeight > window.innerWidth){
+    alert("Please use Landscape!");
+  }
   $(window).load(function(){
     $('#myModal').modal('show');
   });
