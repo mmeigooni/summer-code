@@ -1401,3 +1401,11 @@ br[class*="spacer"] {
   background: #006a36;
   color: white;
 }
+
+.dsk-circle-highlight {
+  border-color: #f9d200 !important;
+}
+
+#myModal {
+  top: 30%;
+}
