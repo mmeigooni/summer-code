@@ -7,14 +7,21 @@
   <link rel="stylesheet" href="assets/styles/css/theme.css" />
   <link rel="stylesheet" href="assets/styles/css/bootstrap.min.css" />
   <style type="text/css">
-  @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
-  html,body
-  {
-    margin:0;
-    padding:0;
-    font-family: 'Droid Sans', sans-serif;
-  }
+    @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+    html,body
+    {
+      margin:0;
+      padding:0;
+      font-family: 'Droid Sans', sans-serif;
+    }
   </style>
+    <script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
+
+  <script>
+    $(function(){
+      $('#dasky').Dasky({autoplay:false,nav:false});
+    });
+  </script>
 </head>
 <body>
   <!-- Button trigger modal -->
@@ -31,8 +38,8 @@
 
         <div class="modal-body">
           <div class="videoWrapper">
-          <iframe width="560" height="315" src="//www.youtube.com/embed/q1o87Djk5wA?rel=0" frameborder="0" allowfullscreen></iframe>
-        </div>
+            <iframe width="560" height="315" src="//www.youtube.com/embed/q1o87Djk5wA?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
           <img src="assets/images/click-to-nav.gif" alt="Click to Navigate" />
           <p>Please click on the dates </p>
           <img src="assets/images/arrows-to-nav.gif" alt="Arrows to Navigate" />
@@ -203,7 +210,6 @@
 
   </div>
 
-  <script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
   <script type="text/javascript" src="assets/js/jmpress.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/dasky.js"></script>
@@ -213,10 +219,6 @@
   }
   $(window).load(function(){
     $('#myModal').modal('show');
-  });
-
-  $(function(){
-    $('#dasky').Dasky({autoplay:false,nav:false});
   });
   </script>
 </body>
