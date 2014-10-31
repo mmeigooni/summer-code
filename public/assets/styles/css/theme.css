@@ -1407,5 +1407,9 @@ br[class*="spacer"] {
 }
 
 #myModal {
-  top: 30%;
+  margin-top: 10%;
+}
+
+.modal-open .modal,.btn:focus{
+    outline:none!important;
 }
