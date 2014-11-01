@@ -1446,7 +1446,7 @@ br[class*="spacer"] {
   text-shadow: none;
 }
 
-@media (max-width: 768px) {
+@media (orientation: landscape) {
   #timeline-logo {
     opacity: 0;
   }
