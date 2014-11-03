@@ -1356,7 +1356,7 @@ br[class*="spacer"] {
 
 #welcome-text {
   font-size: 1.5em;
-  margin-left: 350px;
+  margin-left: 150px;
   margin-top: -280px;
 }
 
@@ -1479,4 +1479,8 @@ br[class*="spacer"] {
   width: 420px;
   margin-top: -60px;
   margin-left: -130px;
+}
+
+.dsk-supported .dsk-year-info {
+  margin-left: 200px;
 }
