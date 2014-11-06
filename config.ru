@@ -219,7 +219,7 @@ map "/demo" do
       'Content-Type'  => 'text/html', 
       'Cache-Control' => 'public, max-age=86400' 
     },
-    File.open('public/synergy.html', File::RDONLY)
+    File.open('public/demo.html', File::RDONLY)
   ]
 }
 end
