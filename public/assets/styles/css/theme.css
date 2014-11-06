@@ -1343,7 +1343,7 @@ br[class*="spacer"] {
   margin-top: 5%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   #timeline-logo {
     display: none;
   }
