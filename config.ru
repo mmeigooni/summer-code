@@ -211,6 +211,19 @@ map "/class3" do
 }
 end
 
+map "/class4" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/class4.html', File::RDONLY)
+  ]
+}
+end
+
 map "/demo" do
   run lambda { |env|
   [
