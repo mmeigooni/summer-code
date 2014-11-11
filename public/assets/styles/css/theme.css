@@ -1415,66 +1415,6 @@ br[class*="spacer"] {
   border-color: #f9d200 !important;
 }
 
-#modal-custom {
-  background: url("../../images/congruent_outline.png");
-  padding: 20px;
-}
-
-#modal-custom .modal-header {
-  border: none;
-}
-
-#modal-custom .modal-footer {
-  border: none;
-}
-
-.modal-body {
-  text-align: center;
-  color: white;
-  font-size: 1.5em;
-}
-
-.modal-body img {
-  width: 300px;
-}
-
-.modal-body p {
-  margin: 20px 0;
-}
-.modal-body h2 {
-  color: white;
-}
-
-.modal-open .modal,.btn:focus{
-    outline:none!important;
-}
-
-#close-custom {
-  opacity: 1;
-  color: #fff;
-  text-shadow: none;
-}
-
-.vertical-alignment-helper {
-    display:table;
-    height: 100%;
-    width: 100%;
-    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
-}
-.vertical-align-center {
-    /* To center vertically */
-    display: table-cell;
-    vertical-align: middle;
-    pointer-events:none;
-}
-.modal-content {
-    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
-    width:inherit;
-    height:inherit;
-    /* To center horizontally */
-    margin: 0 auto;
-}
-
 .small-video {
   width: 420px;
   margin-top: -60px;
