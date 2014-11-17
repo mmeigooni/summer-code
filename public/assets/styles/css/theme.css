@@ -1338,9 +1338,9 @@ br[class*="spacer"] {
 }
 
 #timeline-logo {
-  width: 270px;
-  margin-left: 10%;
-  margin-top: 5%;
+  width: 15%;
+  margin-left: 5%;
+  margin-top: 3%;
 }
 
 @media (max-width: 700px) {

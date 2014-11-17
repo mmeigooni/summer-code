@@ -263,6 +263,19 @@ map "/maimonides" do
 }
 end
 
+map "/pcs" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/pcs.html', File::RDONLY)
+  ]
+}
+end
+
 
 
 
