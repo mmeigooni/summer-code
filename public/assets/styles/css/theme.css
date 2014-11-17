@@ -1370,6 +1370,7 @@ br[class*="spacer"] {
 }
 .dsk-supported .active .dsk-circle {
   background: #006a36;
+  line-height: 52px;
 }
 
 .dsk-supported .dsk-info h2 {
