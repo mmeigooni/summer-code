@@ -1,19 +1,28 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Mushroom Learning -- Synergy Quantum</title>
-<link rel="stylesheet" href="assets/styles/css/dasky.min.css" />
-<link rel="stylesheet" href="assets/styles/css/theme.css" />
-<script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
-<script type="text/javascript" src="assets/js/jmpress.min.js"></script>
-<script type="text/javascript" src="assets/js/dasky.js"></script>
-<script type="text/javascript">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Mushroom Learning -- Park Century School</title>
+  <link rel="stylesheet" href="assets/styles/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/styles/css/dasky.min.css" />
+  <link rel="stylesheet" href="assets/styles/css/theme.css" />
+  <script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/jmpress.min.js"></script>
+  <script type="text/javascript" src="assets/js/dasky.js"></script>
+  <script type="text/javascript">
+    if(window.innerHeight > window.innerWidth){
+    alert("For the best experience, please use landscape orientation.");
+  }
+  $(window).load(function(){
+    $('#myModal').modal('show');
+  });
   $(function(){
     $('#dasky').Dasky({autoplay:false,nav:false});
   });
-</script>
-<style type="text/css">
+  </script>
+  <style type="text/css">
   @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
   html,body
   {
@@ -21,167 +30,256 @@
     padding:0;
     font-family: 'Droid Sans', sans-serif;
   }
-</style>
+
+
+  .dsk-supported .dsk-circle {
+    line-height: 37px;
+  }
+
+  #modal-custom {
+    background: url("assets/images/congruent_outline.png");
+    padding: 20px;
+  }
+
+  #modal-custom .modal-header {
+    border: none;
+  }
+
+  #modal-custom .modal-footer {
+    border: none;
+  }
+
+  .modal-body {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .modal-body img {
+    width: 300px;
+  }
+
+  .modal-body p {
+    margin: 20px 0;
+  }
+  .modal-body h2 {
+    color: white;
+  }
+
+  .modal-open .modal,.btn:focus{
+    outline:none!important;
+  }
+
+  #close-custom {
+    opacity: 1;
+    color: #fff;
+    text-shadow: none;
+  }
+
+  .vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+  }
+  .vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+  }
+  .modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+  }
+
+  </style>
+
 </head>
 <body>
-<div id="dasky">
-  <img src="assets/images/logo.png" alt="Mushroom Learning Logo" id="timeline-logo"/>
-  <div class="step year">
-    <div class="dsk-titlenode"> Welcome </div>
-    <div class="dsk-content" id="welcome">
-      <img src="assets/images/welcome.png" alt=""/>
-      <p class="dsk-year-info">Welcome to Mushroom Learning's Web Development course!</p>
-      <p class="dsk-year-info">If you have any questions, please email <a href="mailto:hello@mushroomlearning.com" target="_blank">hello@mushroomlearning.com</a></p>
-    </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle dsk-circle-highlight">10/27</div>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 1 -- Getting Started</h2>
-        <p>We're going to spend Class 1 playing with Chrome Inspector and setting up your Github account!</p>
-        <a href="/class1" class="dsk-link">Required</a> 
-        <a href="/class1ext" class="dsk-link">Bonus</a> 
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+      <div class="modal-dialog vertical-align-center">
+        <div class="modal-content" id="modal-custom">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" id="close-custom"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <img src="assets/images/logo.png" alt="Mushroom Learning Logo"/>
+          </div>
+
+
+          <div class="modal-body">
+            <h2>Welcome to Mushroom Learning!</h2>
+            <img src="assets/images/click-to-nav.gif" alt="Click to Navigate" />
+            <p>Please click on the dates </p>
+            <img src="assets/images/arrows-to-nav.gif" alt="Arrows to Navigate" />
+            <p>Or use your keyboard arrows to navigate</p>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
-      <img src="assets/images/timeline-thumbnails/day1.png" alt="" /> 
     </div>
   </div>
-  <div class="step">
-    <div class="dsk-circle dsk-circle-highlight">10/30</div>
-    <h2 class="dsk-circle-title">Class 2</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 2</h2>
-        <p>Last class we took an existing site and swapped out certain elements. In this class, you will start learning how to write HTML and CSS from scratch!</p>
-        <a href="/class2" class="dsk-link">Required</a> 
-        <a href="/#" class="dsk-link">Bonus</a> 
+  <div id="dasky">
+    <img src="assets/images/logo.png" alt="Mushroom Learning Logo" id="timeline-logo"/>
+    <div class="step year">
+      <div class="dsk-titlenode"> Welcome </div>
+      <div class="dsk-content" id="welcome">
+        <img src="assets/images/welcome.png" alt=""/>
+        <p class="dsk-year-info">Welcome to Mushroom Learning's Web Development course!</p>
+        <p class="dsk-year-info">If you have any questions, please email <a href="mailto:hello@mushroomlearning.com" target="_blank">hello@mushroomlearning.com</a></p>
       </div>
-      <img src="assets/images/timeline-thumbnails/day2.png" alt="" /> 
     </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle dsk-circle-highlight">11/6</div>
-    <h2 class="dsk-circle-title">Class 3</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 3</h2>
-        <p>In this project, you will learn how to make lists.</p>
-        <a href="/class3" class="dsk-link">Required</a> 
-        <a href="/#" class="dsk-link">Bonus</a>       
+    <div class="step">
+      <div class="dsk-circle dsk-circle-highlight">Start</div>
+      <div class="dsk-content">
+        <div class="dsk-info">
+          <h2>Project 1 -- Getting Started</h2>
+          <p>We're going to spend Project 1 playing with Chrome Inspector and setting up your Github account!</p>
+          <a href="/class1" class="dsk-link">Required</a> 
+          <a href="/class1ext" class="dsk-link">Bonus</a> 
+        </div>
+        <img src="assets/images/timeline-thumbnails/day1.png" alt="" /> 
       </div>
-      <img src="assets/images/timeline-thumbnails/day3.png" alt="" /> 
     </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle dsk-circle-highlight">11/7</div>
-    <h2 class="dsk-circle-title">Class 4</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 4</h2>
-        <p>This is where things start to get really fun. Learn about centering, borders, and linking outside pages!</p>
-        <a href="/class4" class="dsk-link">Required</a> 
-        <a href="/#" class="dsk-link">Bonus</a>          </div>
-      <img src="assets/images/timeline-thumbnails/day4.png" alt="" /> 
-    </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle">11/13</div>
-    <h2 class="dsk-circle-title">Class 5</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 5</h2>
-        <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
-        <a href="#" class="dsk-link">OK</a> 
+    <div class="step">
+      <div class="dsk-circle dsk-circle-highlight"></div>
+      <h2 class="dsk-circle-title">Project 2</h2>
+      <div class="dsk-content">
+        <div class="dsk-info">
+          <h2>Project 2</h2>
+          <p>Last project we took an existing site and swapped out certain elements. In this class, you will start learning how to write HTML and CSS from scratch!</p>
+          <a href="/class2" class="dsk-link">Required</a> 
+          <a href="/#" class="dsk-link">Bonus</a> 
+        </div>
+        <img src="assets/images/timeline-thumbnails/day2.png" alt="" /> 
       </div>
-      <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
     </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle">11/14</div>
-    <h2 class="dsk-circle-title">Class 6</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 6</h2>
-        <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
-        <a href="#" class="dsk-link">OK</a> 
+    <div class="step">
+      <div class="dsk-circle dsk-circle-highlight"></div>
+      <h2 class="dsk-circle-title">Project 3</h2>
+      <div class="dsk-content">
+        <div class="dsk-info">
+          <h2>Project 3</h2>
+          <p>In this project, you will learn how to make lists.</p>
+          <a href="/class3" class="dsk-link">Required</a> 
+          <a href="/#" class="dsk-link">Bonus</a>       
+        </div>
+        <img src="assets/images/timeline-thumbnails/day3.png" alt="" /> 
       </div>
-      <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
     </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle">11/20</div>
-    <h2 class="dsk-circle-title">Class 7</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 7</h2>
-        <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
-        <a href="#" class="dsk-link">OK</a> 
+    <div class="step">
+      <div class="dsk-circle dsk-circle-highlight"></div>
+      <h2 class="dsk-circle-title">Project 4</h2>
+      <div class="dsk-content">
+        <div class="dsk-info">
+          <h2>Project 4</h2>
+          <p>This is where things start to get really fun. Learn about centering, borders, and linking outside pages!</p>
+          <a href="/class4" class="dsk-link">Required</a> 
+          <a href="/#" class="dsk-link">Bonus</a>          </div>
+          <img src="assets/images/timeline-thumbnails/day4.png" alt="" /> 
+        </div>
       </div>
-      <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
-    </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle">11/21</div>
-    <h2 class="dsk-circle-title">Class 8</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 8</h2>
-        <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
-        <a href="#" class="dsk-link">OK</a> 
+      <div class="step">
+        <div class="dsk-circle dsk-circle-highlight"></div>
+        <h2 class="dsk-circle-title">Project 5</h2>
+        <div class="dsk-content">
+          <div class="dsk-info">
+            <h2>Project 5</h2>
+            <p>This project, we'll work with divs, class/ids, and padding/margins.</p>
+            <a href="/class5" class="dsk-link">Required</a> 
+          </div>
+          <img src="assets/images/timeline-thumbnails/day5.png" alt="" /> 
+        </div>
       </div>
-      <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
-    </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle">12/4</div>
-    <h2 class="dsk-circle-title">Class 9</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 9</h2>
-        <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
-        <a href="#" class="dsk-link">OK</a> 
+      <div class="step">
+        <div class="dsk-circle"></div>
+        <h2 class="dsk-circle-title">Project 6</h2>
+        <div class="dsk-content">
+          <div class="dsk-info">
+            <h2>Project 6</h2>
+            <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
+            <a href="#" class="dsk-link">OK</a> 
+          </div>
+          <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
+        </div>
       </div>
-      <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
-    </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle">12/5</div>
-    <h2 class="dsk-circle-title">Class 10</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 10</h2>
-        <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
-        <a href="#" class="dsk-link">OK</a> 
+      <div class="step">
+        <div class="dsk-circle"></div>
+        <h2 class="dsk-circle-title">Project 7</h2>
+        <div class="dsk-content">
+          <div class="dsk-info">
+            <h2>Project 7</h2>
+            <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
+            <a href="#" class="dsk-link">OK</a> 
+          </div>
+          <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
+        </div>
       </div>
-      <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
-    </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle">12/11</div>
-    <h2 class="dsk-circle-title">Class 11</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 11</h2>
-        <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
-        <a href="#" class="dsk-link">OK</a> 
+      <div class="step">
+        <div class="dsk-circle"></div>
+        <h2 class="dsk-circle-title">Project 8</h2>
+        <div class="dsk-content">
+          <div class="dsk-info">
+            <h2>Project 8</h2>
+            <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
+            <a href="#" class="dsk-link">OK</a> 
+          </div>
+          <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
+        </div>
       </div>
-      <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
-    </div>
-  </div>
-  <div class="step">
-    <div class="dsk-circle">12/12</div>
-    <h2 class="dsk-circle-title">Class 12</h2>
-    <div class="dsk-content">
-      <div class="dsk-info">
-        <h2>Class 12</h2>
-        <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
-        <a href="#" class="dsk-link">OK</a> 
+      <div class="step">
+        <div class="dsk-circle"></div>
+        <h2 class="dsk-circle-title">Project 9</h2>
+        <div class="dsk-content">
+          <div class="dsk-info">
+            <h2>Project 9</h2>
+            <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
+            <a href="#" class="dsk-link">OK</a> 
+          </div>
+          <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
+        </div>
       </div>
-      <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
+      <div class="step">
+        <div class="dsk-circle"></div>
+        <h2 class="dsk-circle-title">Project 10</h2>
+        <div class="dsk-content">
+          <div class="dsk-info">
+            <h2>Project 10</h2>
+            <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
+            <a href="#" class="dsk-link">OK</a> 
+          </div>
+          <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
+        </div>
+      </div>
+      <div class="step">
+        <div class="dsk-circle"></div>
+        <h2 class="dsk-circle-title">Project 11</h2>
+        <div class="dsk-content">
+          <div class="dsk-info">
+            <h2>Project 11</h2>
+            <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
+            <a href="#" class="dsk-link">OK</a> 
+          </div>
+          <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
+        </div>
+      </div>
+      <div class="step">
+        <div class="dsk-circle"></div>
+        <h2 class="dsk-circle-title">Project 12</h2>
+        <div class="dsk-content">
+          <div class="dsk-info">
+            <h2>Project 12</h2>
+            <p>This class is locked! Have you already finished the last class? Try working on the extension activites.</p>
+            <a href="#" class="dsk-link">OK</a> 
+          </div>
+          <img src="assets/images/timeline-thumbnails/lock.png" alt="" /> 
+        </div>
+      </div>
+
     </div>
   </div>
-  
-  </div>
-</div>
 </body>
 </html>
