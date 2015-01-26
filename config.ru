@@ -365,6 +365,7 @@ map "/hours" do
     File.open('public/hours.html', File::RDONLY)
   ]
 }
+end
 
 map "/how-to-make-pbj" do
   run lambda { |env|
@@ -377,6 +378,7 @@ map "/how-to-make-pbj" do
     File.open('public/how-to-make-pbj.html', File::RDONLY)
   ]
 }
+end
 
 map "/realm" do
   run lambda { |env|
