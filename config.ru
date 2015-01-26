@@ -367,3 +367,18 @@ map "/hours" do
 }
 end
 
+
+
+map "/realm" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/realm.html', File::RDONLY)
+  ]
+}
+end
+
