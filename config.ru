@@ -365,9 +365,18 @@ map "/hours" do
     File.open('public/hours.html', File::RDONLY)
   ]
 }
-end
 
-
+map "/how-to-make-pbj" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/how-to-make-pbj.html', File::RDONLY)
+  ]
+}
 
 map "/realm" do
   run lambda { |env|
@@ -381,4 +390,3 @@ map "/realm" do
   ]
 }
 end
-
