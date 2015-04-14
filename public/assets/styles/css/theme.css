@@ -1012,8 +1012,8 @@ br[class*="spacer"] {
       #quotes {
         text-align: left;
         padding: inherit;
-        margin-left: -15%;
-        margin-right: -15%;
+        margin-left: 0%;
+        margin-right: 0%;
         padding-top: 5%;
       }
     }
@@ -1021,25 +1021,25 @@ br[class*="spacer"] {
   width: auto;
 }
 
-.quote-width {
+.quote-pic {
 }
     @media (min-width: 480px) {
-      .quote-width {
+      .quote-pic {
 
       }
     }
 
     @media (min-width: 768px) {
-      .quote-width {
+      .quote-pic {
       }
     }
     @media (min-width: 992px) {
-      .quote-width {
+      .quote-pic {
       }
     }
     @media (min-width: 1200px) {
-      .quote-width {
-        margin-right: 0%;
+      .quote-pic {
+        margin-left: -25%;
       }
     }
 
